@@ -48,7 +48,7 @@ AndroidDriver<?> driver = MobileDriverFactory.getDriver()
 //driver.pressKeyCode(AndroidKeyCode.KEYCODE_1)
 //driver.pressKeyCode(AndroidKeyCode.KEYCODE_6)
 //driver.pressKeyCode(AndroidKeyCode.ENTER)
-Mobile.setText(findTestObject('Object Repository/TC004/android.widget.EditText-inputno'), '1646948713', 0)
+Mobile.setText(findTestObject('Object Repository/TC004/android.widget.EditText-inputno'), '7805629916', 0)
 
 Mobile.pressBack()
 
@@ -182,11 +182,6 @@ Mobile.tap(findTestObject('TC008/android.widget.ImageView-visible konfirmasi pas
 
 //Mobile.tap(findTestObject('TC008/android.widget.ImageView-invisible konfirmasi password'), 0)
 //Mobile.pressBack()
-Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
-
-Mobile.tap(findTestObject('TC008/android.widget.Button - Lanjut'), 0)
-
-//Mobile.tap(findTestObject('TC010/android.widget.TextView - Pendaftaran Berhasil'), 0)
 Mobile.delay(10, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.tap(findTestObject('TC010/android.widget.Button - Lanjut'), 0)
@@ -195,7 +190,7 @@ Mobile.delay(10, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.tap(findTestObject('Now-1017/android.widget.Button - Nanti'), 0)
 
-//Mobile.takeScreenshot('D:\\asset katalon\\NOW-417 [Android] Create TestScript First Downloader - New Flow\\ScreenShot\\Linkage Neopay Register\\1.png', 
+//Mobile.takeScreenshot('D:\\asset katalon\\NOW-417 [Android] Create TestScript First Downloader - New Flow\\ScreenShot\\Linkage Neopay Unregister\\1.png', 
 //    FailureHandling.STOP_ON_FAILURE)
 Mobile.tap(findTestObject('Now-418/android.widget.Button - Isi Saldo'), 0)
 
@@ -203,7 +198,7 @@ Mobile.tap(findTestObject('Now-418/android.view.ViewGroup - tampilan maksimal li
 
 Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
 
-//Mobile.takeScreenshot('D:\\asset katalon\\NOW-417 [Android] Create TestScript First Downloader - New Flow\\ScreenShot\\Linkage Neopay Register\\1.png', 
+//Mobile.takeScreenshot('D:\\asset katalon\\NOW-417 [Android] Create TestScript First Downloader - New Flow\\ScreenShot\\Linkage Neopay Unregister\\2.png', 
 //    FailureHandling.STOP_ON_FAILURE)
 driver.terminateApp('com.nobubank.nobuepay.walletsit')
 

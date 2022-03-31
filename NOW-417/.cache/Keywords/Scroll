@@ -1,0 +1,35 @@
+{
+  "keywordFileContentHash": "1F256072C0654A20BC108A6C5B3FF9E3",
+  "keywordClasses": [
+    {
+      "name": "Scroll",
+      "keywordMethods": [
+        {
+          "name": "ScrollUp",
+          "parameters": []
+        },
+        {
+          "name": "ScrollDown",
+          "parameters": []
+        },
+        {
+          "name": "ScrollDownFast",
+          "parameters": []
+        },
+        {
+          "name": "Swipe_PackageCategoryAXISnet",
+          "parameters": []
+        },
+        {
+          "name": "SwipeLeft",
+          "parameters": []
+        },
+        {
+          "name": "SwipeRight",
+          "parameters": []
+        }
+      ]
+    }
+  ],
+  "javadocParsed": false
+}
