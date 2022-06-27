@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Project>
    <description>fristDownloader - New Flow</description>
-   <name>NOW-417</name>
+   <name>Android-Automation</name>
    <tag></tag>
    <UUID>30ecbcbf-3ed3-4a6a-937a-bc943a8e7466</UUID>
    <migratedVersion>5.9.0</migratedVersion>
    <pageLoadTimeout>0</pageLoadTimeout>
-   <projectFileLocation>D:\asset katalon\NOW-417 [Android] Create TestScript First Downloader - New Flow\NOW-417\NOW-417.prj</projectFileLocation>
+   <projectFileLocation>D:\Work\Automation\NobuNow\Android-Automation\NOW-417.prj</projectFileLocation>
    <sourceContent>
       <sourceFolderList>
          <sourceFolderConfiguration>
