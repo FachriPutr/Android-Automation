@@ -1,14 +1,14 @@
 [35m[Appium][39m Welcome to Appium v1.22.3
 [35m[Appium][39m Non-default server args:
-[35m[Appium][39m   port: 60185
+[35m[Appium][39m   port: 60915
 [35m[Appium][39m   loglevel: info
-[35m[Appium][39m   tmpDir: C:\Users\IDSTAR~1\AppData\Local\Temp\\Katalon\Appium\Temp1656903155511
-[35m[Appium][39m   chromedriverPort: 60186
+[35m[Appium][39m   tmpDir: C:\Users\IDSTAR~1\AppData\Local\Temp\\Katalon\Appium\Temp1656906690842
+[35m[Appium][39m   chromedriverPort: 60916
 [35m[Appium][39m Deprecated server args:
 [35m[Appium][39m   [31m--chromedriver-port[39m => --default-capabilities
 [35m[Appium][39m Default capabilities, which will be added to each request unless overridden by desired capabilities:
-[35m[Appium][39m   chromedriverPort: 60186
-[35m[Appium][39m Appium REST http interface listener started on 0.0.0.0:60185
+[35m[Appium][39m   chromedriverPort: 60916
+[35m[Appium][39m Appium REST http interface listener started on 0.0.0.0:60915
 [35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
 [35m[HTTP][39m [90m{}[39m
 [35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m5 ms - 68[39m
@@ -18,7 +18,7 @@
 [35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m2 ms - 68[39m
 [35m[HTTP][39m [90m[39m
 [35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m
-[35m[HTTP][39m [90m{"desiredCapabilities":{"appPackage":"com.android.settings","deviceId":"ea39a3c0","deviceName":"Xiaomi M2101K6G (Android 12)","platform":"ANDROID","appActivity":".Settings","newCommandTimeout":1800,"platformVersion":"12","automationName":"uiautomator2","autoGrantPermissions":true,"platformName":"Android","udid":"ea39a3c0","systemPort":8266},"capabilities":{"firstMatch":[{"appium:appActivity":".Settings","appium:appPackage":"com.android.settings","appium:autoGrantPermissions":true,"appium:automationName":"uiautomator2","deviceId":"ea39a3c0","appium:deviceName":"Xiaomi M2101K6G (Android 12)","appium:newCommandTimeout":1800,"platform":"ANDROID","platformName":"android","appium:platformVersion":"12","appium:systemPort":8266,"appium:udid":"ea39a3c0"}]}}[39m
+[35m[HTTP][39m [90m{"desiredCapabilities":{"appPackage":"com.android.settings","deviceId":"ea39a3c0","deviceName":"Xiaomi M2101K6G (Android 12)","platform":"ANDROID","appActivity":".Settings","newCommandTimeout":1800,"platformVersion":"12","automationName":"uiautomator2","autoGrantPermissions":true,"platformName":"Android","udid":"ea39a3c0","systemPort":8259},"capabilities":{"firstMatch":[{"appium:appActivity":".Settings","appium:appPackage":"com.android.settings","appium:autoGrantPermissions":true,"appium:automationName":"uiautomator2","deviceId":"ea39a3c0","appium:deviceName":"Xiaomi M2101K6G (Android 12)","appium:newCommandTimeout":1800,"platform":"ANDROID","platformName":"android","appium:platformVersion":"12","appium:systemPort":8259,"appium:udid":"ea39a3c0"}]}}[39m
 [35m[BaseDriver][39m The following capabilities are not standard capabilities and should have an extension prefix:
 [35m[BaseDriver][39m   deviceId
 [35m[BaseDriver][39m   platform
@@ -27,7 +27,7 @@
 [35m[BaseDriver][39m The following capabilities were provided, but are not recognized by Appium:
 [35m[BaseDriver][39m   deviceId
 [35m[BaseDriver][39m   platform
-[35m[BaseDriver][39m Session created with session id: 7f061ae8-24cb-4c97-8de4-c44f75add185
+[35m[BaseDriver][39m Session created with session id: c51747fd-bb70-4fac-93e0-337228efe998
 [35m[UiAutomator2][39m Starting 'com.android.settings' directly on the device
 [35m[ADB][39m Found 2 'build-tools' folders under 'C:\Users\id star\AppData\Local\Android\Sdk' (newest first):
 [35m[ADB][39m     C:/Users/id star/AppData/Local/Android/Sdk/build-tools/33.0.0
@@ -53,93 +53,614 @@
 [35m[WD Proxy][39m socket hang up
 [35m[WD Proxy][39m socket hang up
 [35m[WD Proxy][39m socket hang up
+[35m[WD Proxy][39m socket hang up
 [35m[WD Proxy][39m Determined the downstream protocol as 'W3C'
 [35m[AndroidDriver][39m Screen already unlocked, doing nothing
 [35m[UiAutomator2][39m Starting 'com.android.settings/.Settings and waiting for 'com.android.settings/.Settings'
-[35m[Appium][39m New AndroidUiautomator2Driver session created successfully, session 7f061ae8-24cb-4c97-8de4-c44f75add185 added to master session list
-[35m[HTTP][39m [37m<-- POST /wd/hub/session [39m[32m200[39m [90m12747 ms - 1187[39m
+[35m[Appium][39m New AndroidUiautomator2Driver session created successfully, session c51747fd-bb70-4fac-93e0-337228efe998 added to master session list
+[35m[HTTP][39m [37m<-- POST /wd/hub/session [39m[32m200[39m [90m13942 ms - 1187[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/7f061ae8-24cb-4c97-8de4-c44f75add185[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/c51747fd-bb70-4fac-93e0-337228efe998[39m
 [35m[HTTP][39m [90m{}[39m
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/7f061ae8-24cb-4c97-8de4-c44f75add185 [39m[32m200[39m [90m12 ms - 1141[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/c51747fd-bb70-4fac-93e0-337228efe998 [39m[32m200[39m [90m17 ms - 1141[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/7f061ae8-24cb-4c97-8de4-c44f75add185[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/c51747fd-bb70-4fac-93e0-337228efe998[39m
 [35m[HTTP][39m [90m{}[39m
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/7f061ae8-24cb-4c97-8de4-c44f75add185 [39m[32m200[39m [90m11 ms - 1141[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/c51747fd-bb70-4fac-93e0-337228efe998 [39m[32m200[39m [90m12 ms - 1141[39m
 [35m[HTTP][39m [90m[39m
 [35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
 [35m[HTTP][39m [90m{}[39m
 [35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m1 ms - 68[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/7f061ae8-24cb-4c97-8de4-c44f75add185/timeouts[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c51747fd-bb70-4fac-93e0-337228efe998/timeouts[39m
 [35m[HTTP][39m [90m{"implicit":60000}[39m
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/7f061ae8-24cb-4c97-8de4-c44f75add185/timeouts [39m[32m200[39m [90m2 ms - 14[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c51747fd-bb70-4fac-93e0-337228efe998/timeouts [39m[32m200[39m [90m3 ms - 14[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/7f061ae8-24cb-4c97-8de4-c44f75add185/screenshot[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/c51747fd-bb70-4fac-93e0-337228efe998/screenshot[39m
 [35m[HTTP][39m [90m{}[39m
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/7f061ae8-24cb-4c97-8de4-c44f75add185/screenshot [39m[32m200[39m [90m429 ms - 255320[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/c51747fd-bb70-4fac-93e0-337228efe998/screenshot [39m[32m200[39m [90m397 ms - 258028[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/7f061ae8-24cb-4c97-8de4-c44f75add185/window/rect[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/c51747fd-bb70-4fac-93e0-337228efe998/window/rect[39m
 [35m[HTTP][39m [90m{}[39m
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/7f061ae8-24cb-4c97-8de4-c44f75add185/window/rect [39m[32m200[39m [90m14 ms - 50[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/c51747fd-bb70-4fac-93e0-337228efe998/window/rect [39m[32m200[39m [90m18 ms - 50[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/7f061ae8-24cb-4c97-8de4-c44f75add185/appium/device/system_bars[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/c51747fd-bb70-4fac-93e0-337228efe998/appium/device/system_bars[39m
 [35m[HTTP][39m [90m{}[39m
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/7f061ae8-24cb-4c97-8de4-c44f75add185/appium/device/system_bars [39m[32m200[39m [90m100 ms - 145[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/c51747fd-bb70-4fac-93e0-337228efe998/appium/device/system_bars [39m[32m200[39m [90m92 ms - 145[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/7f061ae8-24cb-4c97-8de4-c44f75add185/appium/device/activate_app[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c51747fd-bb70-4fac-93e0-337228efe998/appium/device/activate_app[39m
 [35m[HTTP][39m [90m{"bundleId":"com.nobubank.nobuepay.walletuat"}[39m
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/7f061ae8-24cb-4c97-8de4-c44f75add185/appium/device/activate_app [39m[32m200[39m [90m3483 ms - 14[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c51747fd-bb70-4fac-93e0-337228efe998/appium/device/activate_app [39m[32m200[39m [90m4789 ms - 14[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/7f061ae8-24cb-4c97-8de4-c44f75add185/source[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/c51747fd-bb70-4fac-93e0-337228efe998/source[39m
 [35m[HTTP][39m [90m{}[39m
-[35m[W3C (7f061ae8)][39m Driver proxy active, passing request on via HTTP proxy
-[35m[WD Proxy][39m Replacing sessionId f45c175f-ecb4-4a02-b23c-e332e5db044e with 7f061ae8-24cb-4c97-8de4-c44f75add185
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/7f061ae8-24cb-4c97-8de4-c44f75add185/source [39m[32m200[39m [90m566 ms - 22831[39m
+[35m[W3C (c51747fd)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId ad80f047-da49-42bb-83a2-099d873b217a with c51747fd-bb70-4fac-93e0-337228efe998
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/c51747fd-bb70-4fac-93e0-337228efe998/source [39m[32m200[39m [90m663 ms - 3343[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/7f061ae8-24cb-4c97-8de4-c44f75add185/screenshot[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/c51747fd-bb70-4fac-93e0-337228efe998/screenshot[39m
 [35m[HTTP][39m [90m{}[39m
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/7f061ae8-24cb-4c97-8de4-c44f75add185/screenshot [39m[32m200[39m [90m431 ms - 133782[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/c51747fd-bb70-4fac-93e0-337228efe998/screenshot [39m[32m200[39m [90m951 ms - 858168[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/7f061ae8-24cb-4c97-8de4-c44f75add185/elements[39m
-[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = '2' or . = '2') and @resource-id = 'com.nobubank.nobuepay.walletuat:id/btn2']"}[39m
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/7f061ae8-24cb-4c97-8de4-c44f75add185/elements [39m[32m200[39m [90m353 ms - 139[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/7f061ae8-24cb-4c97-8de4-c44f75add185/elements[39m
-[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = '3' or . = '3') and @resource-id = 'com.nobubank.nobuepay.walletuat:id/btn3']"}[39m
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/7f061ae8-24cb-4c97-8de4-c44f75add185/elements [39m[32m200[39m [90m144 ms - 139[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/7f061ae8-24cb-4c97-8de4-c44f75add185/elements[39m
-[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = '4' or . = '4')]"}[39m
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/7f061ae8-24cb-4c97-8de4-c44f75add185/elements [39m[32m200[39m [90m138 ms - 139[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/7f061ae8-24cb-4c97-8de4-c44f75add185/elements[39m
-[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = '5' or . = '5') and @resource-id = 'com.nobubank.nobuepay.walletuat:id/btn5']"}[39m
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/7f061ae8-24cb-4c97-8de4-c44f75add185/elements [39m[32m200[39m [90m144 ms - 139[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/7f061ae8-24cb-4c97-8de4-c44f75add185/elements[39m
-[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = '6' or . = '6') and @resource-id = 'com.nobubank.nobuepay.walletuat:id/btn6']"}[39m
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/7f061ae8-24cb-4c97-8de4-c44f75add185/elements [39m[32m200[39m [90m163 ms - 139[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/7f061ae8-24cb-4c97-8de4-c44f75add185/elements[39m
-[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = '7' or . = '7') and @resource-id = 'com.nobubank.nobuepay.walletuat:id/btn7']"}[39m
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/7f061ae8-24cb-4c97-8de4-c44f75add185/elements [39m[32m200[39m [90m100 ms - 139[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/7f061ae8-24cb-4c97-8de4-c44f75add185/elements[39m
-[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = '8' or . = '8') and @resource-id = 'com.nobubank.nobuepay.walletuat:id/btn8']"}[39m
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/7f061ae8-24cb-4c97-8de4-c44f75add185/elements [39m[32m200[39m [90m215 ms - 139[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/7f061ae8-24cb-4c97-8de4-c44f75add185/elements[39m
-[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = '9' or . = '9') and @resource-id = 'com.nobubank.nobuepay.walletuat:id/btn9']"}[39m
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/7f061ae8-24cb-4c97-8de4-c44f75add185/elements [39m[32m200[39m [90m129 ms - 139[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/7f061ae8-24cb-4c97-8de4-c44f75add185/elements[39m
-[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = '0' or . = '0') and @resource-id = 'com.nobubank.nobuepay.walletuat:id/btn0']"}[39m
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/7f061ae8-24cb-4c97-8de4-c44f75add185/elements [39m[32m200[39m [90m165 ms - 139[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mDELETE[39m [37m/wd/hub/session/7f061ae8-24cb-4c97-8de4-c44f75add185[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/c51747fd-bb70-4fac-93e0-337228efe998/source[39m
 [35m[HTTP][39m [90m{}[39m
-[35m[Appium][39m Removing session 7f061ae8-24cb-4c97-8de4-c44f75add185 from our master session list
+[35m[W3C (c51747fd)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId ad80f047-da49-42bb-83a2-099d873b217a with c51747fd-bb70-4fac-93e0-337228efe998
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/c51747fd-bb70-4fac-93e0-337228efe998/source [39m[32m200[39m [90m300 ms - 42753[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/c51747fd-bb70-4fac-93e0-337228efe998/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/c51747fd-bb70-4fac-93e0-337228efe998/screenshot [39m[32m200[39m [90m1027 ms - 1062078[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c51747fd-bb70-4fac-93e0-337228efe998/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.ImageView' and @resource-id = 'com.nobubank.nobuepay.walletuat:id/ivBack' and (@text = '' or . = '')]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c51747fd-bb70-4fac-93e0-337228efe998/elements [39m[32m200[39m [90m1405 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/c51747fd-bb70-4fac-93e0-337228efe998/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/c51747fd-bb70-4fac-93e0-337228efe998/window/rect [39m[32m200[39m [90m14 ms - 50[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c51747fd-bb70-4fac-93e0-337228efe998/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.ImageView' and @resource-id = 'com.nobubank.nobuepay.walletuat:id/ivBack' and (@text = '' or . = '')]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c51747fd-bb70-4fac-93e0-337228efe998/elements [39m[32m200[39m [90m348 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/c51747fd-bb70-4fac-93e0-337228efe998/element/00000000-0000-065f-ffff-ffff000000c4/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (c51747fd)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId ad80f047-da49-42bb-83a2-099d873b217a with c51747fd-bb70-4fac-93e0-337228efe998
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/c51747fd-bb70-4fac-93e0-337228efe998/element/00000000-0000-065f-ffff-ffff000000c4/location [39m[32m200[39m [90m23 ms - 77[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c51747fd-bb70-4fac-93e0-337228efe998/element/00000000-0000-065f-ffff-ffff000000c4/click[39m
+[35m[HTTP][39m [90m{"id":"00000000-0000-065f-ffff-ffff000000c4"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c51747fd-bb70-4fac-93e0-337228efe998/element/00000000-0000-065f-ffff-ffff000000c4/click [39m[32m200[39m [90m67 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/c51747fd-bb70-4fac-93e0-337228efe998/source[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (c51747fd)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId ad80f047-da49-42bb-83a2-099d873b217a with c51747fd-bb70-4fac-93e0-337228efe998
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/c51747fd-bb70-4fac-93e0-337228efe998/source [39m[32m200[39m [90m915 ms - 78088[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/c51747fd-bb70-4fac-93e0-337228efe998/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/c51747fd-bb70-4fac-93e0-337228efe998/screenshot [39m[32m200[39m [90m633 ms - 298778[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c51747fd-bb70-4fac-93e0-337228efe998/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Ubah Password' or . = 'Ubah Password') and @resource-id = 'com.nobubank.nobuepay.walletuat:id/tvMenu']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c51747fd-bb70-4fac-93e0-337228efe998/elements [39m[32m200[39m [90m452 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/c51747fd-bb70-4fac-93e0-337228efe998/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/c51747fd-bb70-4fac-93e0-337228efe998/window/rect [39m[32m200[39m [90m13 ms - 50[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c51747fd-bb70-4fac-93e0-337228efe998/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Ubah Password' or . = 'Ubah Password') and @resource-id = 'com.nobubank.nobuepay.walletuat:id/tvMenu']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c51747fd-bb70-4fac-93e0-337228efe998/elements [39m[32m200[39m [90m573 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/c51747fd-bb70-4fac-93e0-337228efe998/element/00000000-0000-065f-ffff-ffff00000138/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (c51747fd)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId ad80f047-da49-42bb-83a2-099d873b217a with c51747fd-bb70-4fac-93e0-337228efe998
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/c51747fd-bb70-4fac-93e0-337228efe998/element/00000000-0000-065f-ffff-ffff00000138/location [39m[32m200[39m [90m548 ms - 79[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c51747fd-bb70-4fac-93e0-337228efe998/element/00000000-0000-065f-ffff-ffff00000138/click[39m
+[35m[HTTP][39m [90m{"id":"00000000-0000-065f-ffff-ffff00000138"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c51747fd-bb70-4fac-93e0-337228efe998/element/00000000-0000-065f-ffff-ffff00000138/click [39m[32m200[39m [90m87 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/c51747fd-bb70-4fac-93e0-337228efe998/source[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (c51747fd)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId ad80f047-da49-42bb-83a2-099d873b217a with c51747fd-bb70-4fac-93e0-337228efe998
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/c51747fd-bb70-4fac-93e0-337228efe998/source [39m[32m200[39m [90m341 ms - 9907[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/c51747fd-bb70-4fac-93e0-337228efe998/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/c51747fd-bb70-4fac-93e0-337228efe998/screenshot [39m[32m200[39m [90m482 ms - 89992[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c51747fd-bb70-4fac-93e0-337228efe998/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Password Saat Ini' or . = 'Password Saat Ini') and @resource-id = 'com.nobubank.nobuepay.walletuat:id/label']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c51747fd-bb70-4fac-93e0-337228efe998/elements [39m[32m200[39m [90m186 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/c51747fd-bb70-4fac-93e0-337228efe998/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/c51747fd-bb70-4fac-93e0-337228efe998/window/rect [39m[32m200[39m [90m14 ms - 50[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c51747fd-bb70-4fac-93e0-337228efe998/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Password Saat Ini' or . = 'Password Saat Ini') and @resource-id = 'com.nobubank.nobuepay.walletuat:id/label']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c51747fd-bb70-4fac-93e0-337228efe998/elements [39m[32m200[39m [90m168 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/c51747fd-bb70-4fac-93e0-337228efe998/element/00000000-0000-0671-ffff-ffff00000373/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (c51747fd)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId ad80f047-da49-42bb-83a2-099d873b217a with c51747fd-bb70-4fac-93e0-337228efe998
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/c51747fd-bb70-4fac-93e0-337228efe998/element/00000000-0000-0671-ffff-ffff00000373/location [39m[32m200[39m [90m28 ms - 77[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c51747fd-bb70-4fac-93e0-337228efe998/element/00000000-0000-0671-ffff-ffff00000373/click[39m
+[35m[HTTP][39m [90m{"id":"00000000-0000-0671-ffff-ffff00000373"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c51747fd-bb70-4fac-93e0-337228efe998/element/00000000-0000-0671-ffff-ffff00000373/click [39m[32m200[39m [90m96 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/c51747fd-bb70-4fac-93e0-337228efe998/source[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (c51747fd)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId ad80f047-da49-42bb-83a2-099d873b217a with c51747fd-bb70-4fac-93e0-337228efe998
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/c51747fd-bb70-4fac-93e0-337228efe998/source [39m[32m200[39m [90m96 ms - 9907[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/c51747fd-bb70-4fac-93e0-337228efe998/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/c51747fd-bb70-4fac-93e0-337228efe998/screenshot [39m[32m200[39m [90m511 ms - 91450[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c51747fd-bb70-4fac-93e0-337228efe998/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and @resource-id = 'com.nobubank.nobuepay.walletuat:id/edit_text' and (@text = '' or . = '')]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c51747fd-bb70-4fac-93e0-337228efe998/elements [39m[32m200[39m [90m170 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/c51747fd-bb70-4fac-93e0-337228efe998/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/c51747fd-bb70-4fac-93e0-337228efe998/window/rect [39m[32m200[39m [90m32 ms - 50[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c51747fd-bb70-4fac-93e0-337228efe998/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and @resource-id = 'com.nobubank.nobuepay.walletuat:id/edit_text' and (@text = '' or . = '')]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c51747fd-bb70-4fac-93e0-337228efe998/elements [39m[32m200[39m [90m157 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/c51747fd-bb70-4fac-93e0-337228efe998/element/00000000-0000-0671-ffff-ffff00000376/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (c51747fd)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId ad80f047-da49-42bb-83a2-099d873b217a with c51747fd-bb70-4fac-93e0-337228efe998
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/c51747fd-bb70-4fac-93e0-337228efe998/element/00000000-0000-0671-ffff-ffff00000376/location [39m[32m200[39m [90m22 ms - 77[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c51747fd-bb70-4fac-93e0-337228efe998/element/00000000-0000-0671-ffff-ffff00000376/clear[39m
+[35m[HTTP][39m [90m{"id":"00000000-0000-0671-ffff-ffff00000376"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c51747fd-bb70-4fac-93e0-337228efe998/element/00000000-0000-0671-ffff-ffff00000376/clear [39m[32m200[39m [90m31 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c51747fd-bb70-4fac-93e0-337228efe998/element/00000000-0000-0671-ffff-ffff00000376/value[39m
+[35m[HTTP][39m [90m{"id":"00000000-0000-0671-ffff-ffff00000376","text":"Fakhriaria27@","value":["F","a","k","h","r","i","a","r","i","a","2","7","@"]}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c51747fd-bb70-4fac-93e0-337228efe998/element/00000000-0000-0671-ffff-ffff00000376/value [39m[32m200[39m [90m564 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/c51747fd-bb70-4fac-93e0-337228efe998/source[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (c51747fd)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId ad80f047-da49-42bb-83a2-099d873b217a with c51747fd-bb70-4fac-93e0-337228efe998
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/c51747fd-bb70-4fac-93e0-337228efe998/source [39m[32m200[39m [90m79 ms - 9945[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/c51747fd-bb70-4fac-93e0-337228efe998/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/c51747fd-bb70-4fac-93e0-337228efe998/screenshot [39m[32m200[39m [90m548 ms - 94750[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c51747fd-bb70-4fac-93e0-337228efe998/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Lanjut' or . = 'Lanjut') and @resource-id = 'com.nobubank.nobuepay.walletuat:id/btnNext']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c51747fd-bb70-4fac-93e0-337228efe998/elements [39m[32m200[39m [90m113 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/c51747fd-bb70-4fac-93e0-337228efe998/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/c51747fd-bb70-4fac-93e0-337228efe998/window/rect [39m[32m200[39m [90m12 ms - 50[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c51747fd-bb70-4fac-93e0-337228efe998/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Lanjut' or . = 'Lanjut') and @resource-id = 'com.nobubank.nobuepay.walletuat:id/btnNext']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c51747fd-bb70-4fac-93e0-337228efe998/elements [39m[32m200[39m [90m82 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/c51747fd-bb70-4fac-93e0-337228efe998/element/00000000-0000-0671-ffff-ffff0000037a/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (c51747fd)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId ad80f047-da49-42bb-83a2-099d873b217a with c51747fd-bb70-4fac-93e0-337228efe998
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/c51747fd-bb70-4fac-93e0-337228efe998/element/00000000-0000-0671-ffff-ffff0000037a/location [39m[32m200[39m [90m28 ms - 78[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c51747fd-bb70-4fac-93e0-337228efe998/element/00000000-0000-0671-ffff-ffff0000037a/click[39m
+[35m[HTTP][39m [90m{"id":"00000000-0000-0671-ffff-ffff0000037a"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c51747fd-bb70-4fac-93e0-337228efe998/element/00000000-0000-0671-ffff-ffff0000037a/click [39m[32m200[39m [90m76 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/c51747fd-bb70-4fac-93e0-337228efe998/source[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (c51747fd)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId ad80f047-da49-42bb-83a2-099d873b217a with c51747fd-bb70-4fac-93e0-337228efe998
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/c51747fd-bb70-4fac-93e0-337228efe998/source [39m[32m200[39m [90m814 ms - 23021[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/c51747fd-bb70-4fac-93e0-337228efe998/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/c51747fd-bb70-4fac-93e0-337228efe998/screenshot [39m[32m200[39m [90m520 ms - 136374[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c51747fd-bb70-4fac-93e0-337228efe998/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Buat Password Baru' or . = 'Buat Password Baru') and @resource-id = 'com.nobubank.nobuepay.walletuat:id/tvHeader']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c51747fd-bb70-4fac-93e0-337228efe998/elements [39m[32m200[39m [90m183 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/c51747fd-bb70-4fac-93e0-337228efe998/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/c51747fd-bb70-4fac-93e0-337228efe998/window/rect [39m[32m200[39m [90m14 ms - 50[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c51747fd-bb70-4fac-93e0-337228efe998/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Buat Password Baru' or . = 'Buat Password Baru') and @resource-id = 'com.nobubank.nobuepay.walletuat:id/tvHeader']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c51747fd-bb70-4fac-93e0-337228efe998/elements [39m[32m200[39m [90m150 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/c51747fd-bb70-4fac-93e0-337228efe998/element/00000000-0000-0671-ffff-ffff00000388/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (c51747fd)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId ad80f047-da49-42bb-83a2-099d873b217a with c51747fd-bb70-4fac-93e0-337228efe998
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/c51747fd-bb70-4fac-93e0-337228efe998/element/00000000-0000-0671-ffff-ffff00000388/location [39m[32m200[39m [90m24 ms - 78[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c51747fd-bb70-4fac-93e0-337228efe998/element/00000000-0000-0671-ffff-ffff00000388/click[39m
+[35m[HTTP][39m [90m{"id":"00000000-0000-0671-ffff-ffff00000388"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c51747fd-bb70-4fac-93e0-337228efe998/element/00000000-0000-0671-ffff-ffff00000388/click [39m[32m200[39m [90m83 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/c51747fd-bb70-4fac-93e0-337228efe998/source[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (c51747fd)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId ad80f047-da49-42bb-83a2-099d873b217a with c51747fd-bb70-4fac-93e0-337228efe998
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/c51747fd-bb70-4fac-93e0-337228efe998/source [39m[32m200[39m [90m196 ms - 23021[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/c51747fd-bb70-4fac-93e0-337228efe998/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/c51747fd-bb70-4fac-93e0-337228efe998/screenshot [39m[32m200[39m [90m537 ms - 135342[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c51747fd-bb70-4fac-93e0-337228efe998/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Password' or . = 'Password') and @resource-id = 'com.nobubank.nobuepay.walletuat:id/label']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c51747fd-bb70-4fac-93e0-337228efe998/elements [39m[32m200[39m [90m165 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/c51747fd-bb70-4fac-93e0-337228efe998/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/c51747fd-bb70-4fac-93e0-337228efe998/window/rect [39m[32m200[39m [90m12 ms - 50[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c51747fd-bb70-4fac-93e0-337228efe998/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Password' or . = 'Password') and @resource-id = 'com.nobubank.nobuepay.walletuat:id/label']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c51747fd-bb70-4fac-93e0-337228efe998/elements [39m[32m200[39m [90m596 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/c51747fd-bb70-4fac-93e0-337228efe998/element/00000000-0000-0671-ffff-ffff0000038b/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (c51747fd)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId ad80f047-da49-42bb-83a2-099d873b217a with c51747fd-bb70-4fac-93e0-337228efe998
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/c51747fd-bb70-4fac-93e0-337228efe998/element/00000000-0000-0671-ffff-ffff0000038b/location [39m[32m200[39m [90m24 ms - 77[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c51747fd-bb70-4fac-93e0-337228efe998/element/00000000-0000-0671-ffff-ffff0000038b/click[39m
+[35m[HTTP][39m [90m{"id":"00000000-0000-0671-ffff-ffff0000038b"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c51747fd-bb70-4fac-93e0-337228efe998/element/00000000-0000-0671-ffff-ffff0000038b/click [39m[32m200[39m [90m83 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/c51747fd-bb70-4fac-93e0-337228efe998/source[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (c51747fd)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId ad80f047-da49-42bb-83a2-099d873b217a with c51747fd-bb70-4fac-93e0-337228efe998
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/c51747fd-bb70-4fac-93e0-337228efe998/source [39m[32m200[39m [90m206 ms - 23021[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/c51747fd-bb70-4fac-93e0-337228efe998/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/c51747fd-bb70-4fac-93e0-337228efe998/screenshot [39m[32m200[39m [90m554 ms - 136394[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c51747fd-bb70-4fac-93e0-337228efe998/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and @resource-id = 'com.nobubank.nobuepay.walletuat:id/edit_text' and (@text = '' or . = '')]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c51747fd-bb70-4fac-93e0-337228efe998/elements [39m[32m200[39m [90m190 ms - 267[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c51747fd-bb70-4fac-93e0-337228efe998/elements[39m
+[35m[HTTP][39m [90m{"using":"id","value":"com.nobubank.nobuepay.walletuat:id/edit_text"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c51747fd-bb70-4fac-93e0-337228efe998/elements [39m[32m200[39m [90m62 ms - 267[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c51747fd-bb70-4fac-93e0-337228efe998/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").resourceId(\"com.nobubank.nobuepay.walletuat:id/edit_text\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c51747fd-bb70-4fac-93e0-337228efe998/elements [39m[32m200[39m [90m150 ms - 267[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/c51747fd-bb70-4fac-93e0-337228efe998/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/c51747fd-bb70-4fac-93e0-337228efe998/window/rect [39m[32m200[39m [90m27 ms - 50[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c51747fd-bb70-4fac-93e0-337228efe998/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.EditText[1]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c51747fd-bb70-4fac-93e0-337228efe998/elements [39m[32m200[39m [90m184 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/c51747fd-bb70-4fac-93e0-337228efe998/element/00000000-0000-0671-ffff-ffff0000038e/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (c51747fd)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId ad80f047-da49-42bb-83a2-099d873b217a with c51747fd-bb70-4fac-93e0-337228efe998
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/c51747fd-bb70-4fac-93e0-337228efe998/element/00000000-0000-0671-ffff-ffff0000038e/location [39m[32m200[39m [90m23 ms - 77[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c51747fd-bb70-4fac-93e0-337228efe998/element/00000000-0000-0671-ffff-ffff0000038e/clear[39m
+[35m[HTTP][39m [90m{"id":"00000000-0000-0671-ffff-ffff0000038e"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c51747fd-bb70-4fac-93e0-337228efe998/element/00000000-0000-0671-ffff-ffff0000038e/clear [39m[32m200[39m [90m37 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c51747fd-bb70-4fac-93e0-337228efe998/element/00000000-0000-0671-ffff-ffff0000038e/value[39m
+[35m[HTTP][39m [90m{"id":"00000000-0000-0671-ffff-ffff0000038e","text":"Fakhriaria27@@","value":["F","a","k","h","r","i","a","r","i","a","2","7","@","@"]}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c51747fd-bb70-4fac-93e0-337228efe998/element/00000000-0000-0671-ffff-ffff0000038e/value [39m[32m200[39m [90m549 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/c51747fd-bb70-4fac-93e0-337228efe998/source[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (c51747fd)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId ad80f047-da49-42bb-83a2-099d873b217a with c51747fd-bb70-4fac-93e0-337228efe998
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/c51747fd-bb70-4fac-93e0-337228efe998/source [39m[32m200[39m [90m166 ms - 23063[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/c51747fd-bb70-4fac-93e0-337228efe998/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/c51747fd-bb70-4fac-93e0-337228efe998/screenshot [39m[32m200[39m [90m519 ms - 137900[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c51747fd-bb70-4fac-93e0-337228efe998/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Konfirmasi Password' or . = 'Konfirmasi Password') and @resource-id = 'com.nobubank.nobuepay.walletuat:id/label']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c51747fd-bb70-4fac-93e0-337228efe998/elements [39m[32m200[39m [90m181 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/c51747fd-bb70-4fac-93e0-337228efe998/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/c51747fd-bb70-4fac-93e0-337228efe998/window/rect [39m[32m200[39m [90m11 ms - 50[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c51747fd-bb70-4fac-93e0-337228efe998/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Konfirmasi Password' or . = 'Konfirmasi Password') and @resource-id = 'com.nobubank.nobuepay.walletuat:id/label']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c51747fd-bb70-4fac-93e0-337228efe998/elements [39m[32m200[39m [90m94 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/c51747fd-bb70-4fac-93e0-337228efe998/element/00000000-0000-0671-ffff-ffff000003a8/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (c51747fd)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId ad80f047-da49-42bb-83a2-099d873b217a with c51747fd-bb70-4fac-93e0-337228efe998
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/c51747fd-bb70-4fac-93e0-337228efe998/element/00000000-0000-0671-ffff-ffff000003a8/location [39m[32m200[39m [90m25 ms - 78[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c51747fd-bb70-4fac-93e0-337228efe998/element/00000000-0000-0671-ffff-ffff000003a8/click[39m
+[35m[HTTP][39m [90m{"id":"00000000-0000-0671-ffff-ffff000003a8"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c51747fd-bb70-4fac-93e0-337228efe998/element/00000000-0000-0671-ffff-ffff000003a8/click [39m[32m200[39m [90m556 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/c51747fd-bb70-4fac-93e0-337228efe998/source[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (c51747fd)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId ad80f047-da49-42bb-83a2-099d873b217a with c51747fd-bb70-4fac-93e0-337228efe998
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/c51747fd-bb70-4fac-93e0-337228efe998/source [39m[32m200[39m [90m212 ms - 23063[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/c51747fd-bb70-4fac-93e0-337228efe998/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/c51747fd-bb70-4fac-93e0-337228efe998/screenshot [39m[32m200[39m [90m527 ms - 138040[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/c51747fd-bb70-4fac-93e0-337228efe998/source[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (c51747fd)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId ad80f047-da49-42bb-83a2-099d873b217a with c51747fd-bb70-4fac-93e0-337228efe998
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/c51747fd-bb70-4fac-93e0-337228efe998/source [39m[32m200[39m [90m166 ms - 23021[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/c51747fd-bb70-4fac-93e0-337228efe998/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/c51747fd-bb70-4fac-93e0-337228efe998/screenshot [39m[32m200[39m [90m582 ms - 135138[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c51747fd-bb70-4fac-93e0-337228efe998/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and @resource-id = 'com.nobubank.nobuepay.walletuat:id/edit_text' and (@text = '' or . = '')]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c51747fd-bb70-4fac-93e0-337228efe998/elements [39m[32m200[39m [90m175 ms - 267[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c51747fd-bb70-4fac-93e0-337228efe998/elements[39m
+[35m[HTTP][39m [90m{"using":"id","value":"com.nobubank.nobuepay.walletuat:id/edit_text"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c51747fd-bb70-4fac-93e0-337228efe998/elements [39m[32m200[39m [90m127 ms - 267[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c51747fd-bb70-4fac-93e0-337228efe998/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").resourceId(\"com.nobubank.nobuepay.walletuat:id/edit_text\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c51747fd-bb70-4fac-93e0-337228efe998/elements [39m[32m200[39m [90m165 ms - 267[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/c51747fd-bb70-4fac-93e0-337228efe998/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/c51747fd-bb70-4fac-93e0-337228efe998/window/rect [39m[32m200[39m [90m28 ms - 50[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c51747fd-bb70-4fac-93e0-337228efe998/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.EditText[1]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c51747fd-bb70-4fac-93e0-337228efe998/elements [39m[32m200[39m [90m193 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/c51747fd-bb70-4fac-93e0-337228efe998/element/00000000-0000-0671-ffff-ffff0000038e/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (c51747fd)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId ad80f047-da49-42bb-83a2-099d873b217a with c51747fd-bb70-4fac-93e0-337228efe998
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/c51747fd-bb70-4fac-93e0-337228efe998/element/00000000-0000-0671-ffff-ffff0000038e/location [39m[32m200[39m [90m30 ms - 77[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c51747fd-bb70-4fac-93e0-337228efe998/element/00000000-0000-0671-ffff-ffff0000038e/clear[39m
+[35m[HTTP][39m [90m{"id":"00000000-0000-0671-ffff-ffff0000038e"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c51747fd-bb70-4fac-93e0-337228efe998/element/00000000-0000-0671-ffff-ffff0000038e/clear [39m[32m200[39m [90m49 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c51747fd-bb70-4fac-93e0-337228efe998/element/00000000-0000-0671-ffff-ffff0000038e/value[39m
+[35m[HTTP][39m [90m{"id":"00000000-0000-0671-ffff-ffff0000038e","text":"Fakhriaria27@@","value":["F","a","k","h","r","i","a","r","i","a","2","7","@","@"]}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c51747fd-bb70-4fac-93e0-337228efe998/element/00000000-0000-0671-ffff-ffff0000038e/value [39m[32m200[39m [90m570 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/c51747fd-bb70-4fac-93e0-337228efe998/source[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (c51747fd)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId ad80f047-da49-42bb-83a2-099d873b217a with c51747fd-bb70-4fac-93e0-337228efe998
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/c51747fd-bb70-4fac-93e0-337228efe998/source [39m[32m200[39m [90m176 ms - 23062[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/c51747fd-bb70-4fac-93e0-337228efe998/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/c51747fd-bb70-4fac-93e0-337228efe998/screenshot [39m[32m200[39m [90m559 ms - 137880[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c51747fd-bb70-4fac-93e0-337228efe998/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and @resource-id = 'com.nobubank.nobuepay.walletuat:id/edit_text' and (@text = '' or . = '')]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c51747fd-bb70-4fac-93e0-337228efe998/elements [39m[32m200[39m [90m150 ms - 267[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c51747fd-bb70-4fac-93e0-337228efe998/elements[39m
+[35m[HTTP][39m [90m{"using":"id","value":"com.nobubank.nobuepay.walletuat:id/edit_text"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c51747fd-bb70-4fac-93e0-337228efe998/elements [39m[32m200[39m [90m143 ms - 267[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c51747fd-bb70-4fac-93e0-337228efe998/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").resourceId(\"com.nobubank.nobuepay.walletuat:id/edit_text\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c51747fd-bb70-4fac-93e0-337228efe998/elements [39m[32m200[39m [90m136 ms - 267[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/c51747fd-bb70-4fac-93e0-337228efe998/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/c51747fd-bb70-4fac-93e0-337228efe998/window/rect [39m[32m200[39m [90m21 ms - 50[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c51747fd-bb70-4fac-93e0-337228efe998/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[3]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.EditText[1]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c51747fd-bb70-4fac-93e0-337228efe998/elements [39m[32m200[39m [90m168 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/c51747fd-bb70-4fac-93e0-337228efe998/element/00000000-0000-0671-ffff-ffff000003ab/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (c51747fd)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId ad80f047-da49-42bb-83a2-099d873b217a with c51747fd-bb70-4fac-93e0-337228efe998
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/c51747fd-bb70-4fac-93e0-337228efe998/element/00000000-0000-0671-ffff-ffff000003ab/location [39m[32m200[39m [90m26 ms - 78[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c51747fd-bb70-4fac-93e0-337228efe998/element/00000000-0000-0671-ffff-ffff000003ab/clear[39m
+[35m[HTTP][39m [90m{"id":"00000000-0000-0671-ffff-ffff000003ab"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c51747fd-bb70-4fac-93e0-337228efe998/element/00000000-0000-0671-ffff-ffff000003ab/clear [39m[32m200[39m [90m48 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c51747fd-bb70-4fac-93e0-337228efe998/element/00000000-0000-0671-ffff-ffff000003ab/value[39m
+[35m[HTTP][39m [90m{"id":"00000000-0000-0671-ffff-ffff000003ab","text":"Fakhriaria27@Test","value":["F","a","k","h","r","i","a","r","i","a","2","7","@","T","e","s","t"]}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c51747fd-bb70-4fac-93e0-337228efe998/element/00000000-0000-0671-ffff-ffff000003ab/value [39m[32m200[39m [90m584 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/c51747fd-bb70-4fac-93e0-337228efe998/source[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (c51747fd)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId ad80f047-da49-42bb-83a2-099d873b217a with c51747fd-bb70-4fac-93e0-337228efe998
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/c51747fd-bb70-4fac-93e0-337228efe998/source [39m[32m200[39m [90m160 ms - 22646[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/c51747fd-bb70-4fac-93e0-337228efe998/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/c51747fd-bb70-4fac-93e0-337228efe998/screenshot [39m[32m200[39m [90m557 ms - 140536[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c51747fd-bb70-4fac-93e0-337228efe998/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.ImageView' and @resource-id = 'com.nobubank.nobuepay.walletuat:id/imageview' and (@text = '' or . = '')]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c51747fd-bb70-4fac-93e0-337228efe998/elements [39m[32m200[39m [90m211 ms - 267[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c51747fd-bb70-4fac-93e0-337228efe998/elements[39m
+[35m[HTTP][39m [90m{"using":"id","value":"com.nobubank.nobuepay.walletuat:id/imageview"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c51747fd-bb70-4fac-93e0-337228efe998/elements [39m[32m200[39m [90m85 ms - 267[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c51747fd-bb70-4fac-93e0-337228efe998/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.ImageView\").resourceId(\"com.nobubank.nobuepay.walletuat:id/imageview\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c51747fd-bb70-4fac-93e0-337228efe998/elements [39m[32m200[39m [90m122 ms - 267[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/c51747fd-bb70-4fac-93e0-337228efe998/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/c51747fd-bb70-4fac-93e0-337228efe998/window/rect [39m[32m200[39m [90m19 ms - 50[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c51747fd-bb70-4fac-93e0-337228efe998/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.ImageView[1]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c51747fd-bb70-4fac-93e0-337228efe998/elements [39m[32m200[39m [90m110 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/c51747fd-bb70-4fac-93e0-337228efe998/element/00000000-0000-0671-ffff-ffff0000038f/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (c51747fd)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId ad80f047-da49-42bb-83a2-099d873b217a with c51747fd-bb70-4fac-93e0-337228efe998
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/c51747fd-bb70-4fac-93e0-337228efe998/element/00000000-0000-0671-ffff-ffff0000038f/location [39m[32m200[39m [90m21 ms - 78[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c51747fd-bb70-4fac-93e0-337228efe998/element/00000000-0000-0671-ffff-ffff0000038f/click[39m
+[35m[HTTP][39m [90m{"id":"00000000-0000-0671-ffff-ffff0000038f"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c51747fd-bb70-4fac-93e0-337228efe998/element/00000000-0000-0671-ffff-ffff0000038f/click [39m[32m200[39m [90m89 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/c51747fd-bb70-4fac-93e0-337228efe998/source[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (c51747fd)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId ad80f047-da49-42bb-83a2-099d873b217a with c51747fd-bb70-4fac-93e0-337228efe998
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/c51747fd-bb70-4fac-93e0-337228efe998/source [39m[32m200[39m [90m141 ms - 22619[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/c51747fd-bb70-4fac-93e0-337228efe998/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/c51747fd-bb70-4fac-93e0-337228efe998/screenshot [39m[32m200[39m [90m413 ms - 149728[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c51747fd-bb70-4fac-93e0-337228efe998/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.ImageView' and @resource-id = 'com.nobubank.nobuepay.walletuat:id/imageview' and (@text = '' or . = '')]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c51747fd-bb70-4fac-93e0-337228efe998/elements [39m[32m200[39m [90m568 ms - 267[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c51747fd-bb70-4fac-93e0-337228efe998/elements[39m
+[35m[HTTP][39m [90m{"using":"id","value":"com.nobubank.nobuepay.walletuat:id/imageview"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c51747fd-bb70-4fac-93e0-337228efe998/elements [39m[32m200[39m [90m69 ms - 267[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c51747fd-bb70-4fac-93e0-337228efe998/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.ImageView\").resourceId(\"com.nobubank.nobuepay.walletuat:id/imageview\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c51747fd-bb70-4fac-93e0-337228efe998/elements [39m[32m200[39m [90m72 ms - 267[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/c51747fd-bb70-4fac-93e0-337228efe998/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/c51747fd-bb70-4fac-93e0-337228efe998/window/rect [39m[32m200[39m [90m11 ms - 50[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c51747fd-bb70-4fac-93e0-337228efe998/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[3]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.ImageView[1]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c51747fd-bb70-4fac-93e0-337228efe998/elements [39m[32m200[39m [90m166 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/c51747fd-bb70-4fac-93e0-337228efe998/element/00000000-0000-0671-ffff-ffff000003ac/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (c51747fd)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId ad80f047-da49-42bb-83a2-099d873b217a with c51747fd-bb70-4fac-93e0-337228efe998
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/c51747fd-bb70-4fac-93e0-337228efe998/element/00000000-0000-0671-ffff-ffff000003ac/location [39m[32m200[39m [90m30 ms - 79[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c51747fd-bb70-4fac-93e0-337228efe998/element/00000000-0000-0671-ffff-ffff000003ac/click[39m
+[35m[HTTP][39m [90m{"id":"00000000-0000-0671-ffff-ffff000003ac"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c51747fd-bb70-4fac-93e0-337228efe998/element/00000000-0000-0671-ffff-ffff000003ac/click [39m[32m200[39m [90m76 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/c51747fd-bb70-4fac-93e0-337228efe998/source[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (c51747fd)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId ad80f047-da49-42bb-83a2-099d873b217a with c51747fd-bb70-4fac-93e0-337228efe998
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/c51747fd-bb70-4fac-93e0-337228efe998/source [39m[32m200[39m [90m161 ms - 22588[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/c51747fd-bb70-4fac-93e0-337228efe998/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/c51747fd-bb70-4fac-93e0-337228efe998/screenshot [39m[32m200[39m [90m469 ms - 159600[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c51747fd-bb70-4fac-93e0-337228efe998/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Lanjut' or . = 'Lanjut') and @resource-id = 'com.nobubank.nobuepay.walletuat:id/btnNext']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c51747fd-bb70-4fac-93e0-337228efe998/elements [39m[32m200[39m [90m420 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/c51747fd-bb70-4fac-93e0-337228efe998/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/c51747fd-bb70-4fac-93e0-337228efe998/window/rect [39m[32m200[39m [90m11 ms - 50[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c51747fd-bb70-4fac-93e0-337228efe998/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Lanjut' or . = 'Lanjut') and @resource-id = 'com.nobubank.nobuepay.walletuat:id/btnNext']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c51747fd-bb70-4fac-93e0-337228efe998/elements [39m[32m200[39m [90m174 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/c51747fd-bb70-4fac-93e0-337228efe998/element/00000000-0000-0671-ffff-ffff000003ae/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (c51747fd)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId ad80f047-da49-42bb-83a2-099d873b217a with c51747fd-bb70-4fac-93e0-337228efe998
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/c51747fd-bb70-4fac-93e0-337228efe998/element/00000000-0000-0671-ffff-ffff000003ae/location [39m[32m200[39m [90m26 ms - 78[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c51747fd-bb70-4fac-93e0-337228efe998/element/00000000-0000-0671-ffff-ffff000003ae/click[39m
+[35m[HTTP][39m [90m{"id":"00000000-0000-0671-ffff-ffff000003ae"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c51747fd-bb70-4fac-93e0-337228efe998/element/00000000-0000-0671-ffff-ffff000003ae/click [39m[32m200[39m [90m93 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/c51747fd-bb70-4fac-93e0-337228efe998/source[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (c51747fd)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId ad80f047-da49-42bb-83a2-099d873b217a with c51747fd-bb70-4fac-93e0-337228efe998
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/c51747fd-bb70-4fac-93e0-337228efe998/source [39m[32m200[39m [90m172 ms - 6807[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/c51747fd-bb70-4fac-93e0-337228efe998/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/c51747fd-bb70-4fac-93e0-337228efe998/screenshot [39m[32m200[39m [90m490 ms - 185424[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c51747fd-bb70-4fac-93e0-337228efe998/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'OK' or . = 'OK') and @resource-id = 'com.nobubank.nobuepay.walletuat:id/primary_action_confirmation']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c51747fd-bb70-4fac-93e0-337228efe998/elements [39m[32m200[39m [90m129 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/c51747fd-bb70-4fac-93e0-337228efe998/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/c51747fd-bb70-4fac-93e0-337228efe998/window/rect [39m[32m200[39m [90m20 ms - 50[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c51747fd-bb70-4fac-93e0-337228efe998/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'OK' or . = 'OK') and @resource-id = 'com.nobubank.nobuepay.walletuat:id/primary_action_confirmation']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c51747fd-bb70-4fac-93e0-337228efe998/elements [39m[32m200[39m [90m97 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/c51747fd-bb70-4fac-93e0-337228efe998/element/00000000-0000-0674-ffff-ffff000003c1/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (c51747fd)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId ad80f047-da49-42bb-83a2-099d873b217a with c51747fd-bb70-4fac-93e0-337228efe998
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/c51747fd-bb70-4fac-93e0-337228efe998/element/00000000-0000-0674-ffff-ffff000003c1/location [39m[32m200[39m [90m20 ms - 78[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/c51747fd-bb70-4fac-93e0-337228efe998/element/00000000-0000-0674-ffff-ffff000003c1/click[39m
+[35m[HTTP][39m [90m{"id":"00000000-0000-0674-ffff-ffff000003c1"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/c51747fd-bb70-4fac-93e0-337228efe998/element/00000000-0000-0674-ffff-ffff000003c1/click [39m[32m200[39m [90m71 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/c51747fd-bb70-4fac-93e0-337228efe998/source[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (c51747fd)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId ad80f047-da49-42bb-83a2-099d873b217a with c51747fd-bb70-4fac-93e0-337228efe998
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/c51747fd-bb70-4fac-93e0-337228efe998/source [39m[32m200[39m [90m76 ms - 22588[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/c51747fd-bb70-4fac-93e0-337228efe998/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/c51747fd-bb70-4fac-93e0-337228efe998/screenshot [39m[32m200[39m [90m430 ms - 158340[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mDELETE[39m [37m/wd/hub/session/c51747fd-bb70-4fac-93e0-337228efe998[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[Appium][39m Removing session c51747fd-bb70-4fac-93e0-337228efe998 from our master session list
 [35m[UiAutomator2][39m Restoring hidden api policy to the device default configuration
-[35m[HTTP][39m [37m<-- DELETE /wd/hub/session/7f061ae8-24cb-4c97-8de4-c44f75add185 [39m[32m200[39m [90m479 ms - 14[39m
+[35m[HTTP][39m [37m<-- DELETE /wd/hub/session/c51747fd-bb70-4fac-93e0-337228efe998 [39m[32m200[39m [90m520 ms - 14[39m
 [35m[HTTP][39m [90m[39m
