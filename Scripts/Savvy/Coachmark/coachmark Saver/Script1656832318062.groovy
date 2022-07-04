@@ -44,7 +44,7 @@ for (int i = 1; i < 7; i++) {
 
 //Masukan pin disini
 for (int i = 1; i < 7; i++) {
-    Mobile.tap(findTestObject('Now 420/TC-001/android.widget.TextView - 1 pin'), 0)
+    Mobile.tap(findTestObject('change PIN/android.widget.TextView - 1'), 0)
 }
 
 Mobile.tap(findTestObject('Now 420/TC-001/android.widget.Button - Nanti'), 0)
@@ -67,7 +67,7 @@ Mobile.comment('sumberdana-lihat saldo')
 
 Mobile.tap(findTestObject('coachmark/android.widget.Button - Lihat Saldo'), 0)
 
-Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
+Mobile.delay(10, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.tapAtPosition(855, 165)
 
@@ -77,7 +77,7 @@ Mobile.comment('Saver-transfer')
 
 Mobile.tap(findTestObject('coachmark/android.widget.TextView - Transfer'), 0)
 
-Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
+Mobile.delay(10, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.tapAtPosition(851, 711)
 
