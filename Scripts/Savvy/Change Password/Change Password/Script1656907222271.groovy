@@ -29,7 +29,7 @@ Mobile.tap(findTestObject('Now 420/TC-001/android.widget.TextView - Masukkan Pin
 AndroidDriver<?> driver = MobileDriverFactory.getDriver()
 
 for (int i = 1; i < 7; i++) {
-	Mobile.tap(findTestObject('TC007/android.widget.TextView - 1 pin'), 0)
+    Mobile.tap(findTestObject('TC007/android.widget.TextView - 1 pin'), 0)
 }
 
 Mobile.tap(findTestObject('Object Repository/Change Password/android.widget.ImageView-Sidemenu'), 0)
@@ -63,14 +63,16 @@ Mobile.tap(findTestObject('Object Repository/Change Password/android.widget.Imag
 
 Mobile.tap(findTestObject('Change Password/android.widget.Button - Lanjut'), 0)
 
+Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
+
 Mobile.tap(findTestObject('Object Repository/Change Password/android.widget.Button - OK'), 0)
 
 Mobile.comment('password tidak Sesuai')
 
 Mobile.tap(findTestObject('Object Repository/Change Password/android.widget.TextView - Password'), 0)
 
-Mobile.setText(findTestObject('Object Repository/Change Password/android.widget.EditText-Kolom Password Baru'), '!@#$%^&*',
-	0)
+Mobile.setText(findTestObject('Object Repository/Change Password/android.widget.EditText-Kolom Password Baru'), '!@#$%^&*', 
+    0)
 
 Mobile.tap(findTestObject('Change Password/android.widget.Button - Lanjut'), 0)
 
@@ -78,19 +80,21 @@ Mobile.comment('password Berhasil rubah')
 
 Mobile.tap(findTestObject('Object Repository/Change Password/android.widget.TextView - Password'), 0)
 
-Mobile.setText(findTestObject('Object Repository/Change Password/android.widget.EditText-Kolom Password Baru'), 'Fakhriaria27@@',
-	0)
+Mobile.setText(findTestObject('Object Repository/Change Password/android.widget.EditText-Kolom Password Baru'), 'Fakhriaria27@@', 
+    0)
 
 Mobile.tap(findTestObject('Object Repository/Change Password/android.widget.TextView - Konfirmasi Password'), 0)
 
-Mobile.setText(findTestObject('Object Repository/Change Password/android.widget.EditText-Kolom Konfirmasi Password'), 'Fakhriaria27@@',
-	0)
+Mobile.setText(findTestObject('Object Repository/Change Password/android.widget.EditText-Kolom Konfirmasi Password'), 'Fakhriaria27@@', 
+    0)
 
 Mobile.tap(findTestObject('Object Repository/Change Password/android.widget.ImageView-visible Password'), 0)
 
 Mobile.tap(findTestObject('Object Repository/Change Password/android.widget.ImageView-visible konfirmasi password'), 0)
 
 Mobile.tap(findTestObject('Change Password/android.widget.Button - Lanjut'), 0)
+
+Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.closeApplication()
 

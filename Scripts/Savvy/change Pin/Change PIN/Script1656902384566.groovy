@@ -22,40 +22,19 @@ import io.appium.java_client.android.AndroidKeyCode as AndroidKeyCode
 
 Mobile.startExistingApplication('com.nobubank.nobuepay.walletuat')
 
-Mobile.tap(findTestObject('Object Repository/Now 420/TC-001/android.widget.TextView - Lewati'), 0)
+Mobile.tap(findTestObject('langsung login/android.widget.Button - Login'), 0, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.tap(findTestObject('Object Repository/Now 420/TC-001/android.widget.EditText-tap input no'), 0)
+Mobile.tap(findTestObject('Now 420/TC-001/android.widget.TextView - Masukkan Pin'), 0)
 
 AndroidDriver<?> driver = MobileDriverFactory.getDriver()
 
-//Masukan No Hp Disini
-Mobile.setText(findTestObject('Object Repository/Now 420/TC-001/android.widget.EditText- Input no login'), '1221723299',
-	0 //Set Text
-	)
-
-Mobile.tap(findTestObject('Object Repository/Now 420/TC-001/android.widget.Button - Login'), 0)
-
-Mobile.tap(findTestObject('Object Repository/Now 420/TC-001/android.widget.TextView - Masukkan Kode Verifikasi'), 0)
-
-Mobile.tap(findTestObject('Object Repository/Now 420/TC-001/android.widget.EditText-tap input OTP'), 0)
-
-//Masukan OTP Disini Login
 for (int i = 1; i < 7; i++) {
-	driver.pressKeyCode(AndroidKeyCode.KEYCODE_9)
+    Mobile.tap(findTestObject('TC007/android.widget.TextView - 1 pin'), 0)
 }
-
-//Masukan pin disini Login
-for (int i = 1; i < 7; i++) {
-	Mobile.tap(findTestObject('Now 420/TC-001/android.widget.TextView - 1 pin'), 0)
-}
-
-Mobile.tap(findTestObject('Now 420/TC-001/android.widget.Button - Nanti'), 0)
 
 Mobile.tap(findTestObject('Object Repository/change PIN/android.widget.ImageView - button 3 garis'), 0)
 
 Mobile.tap(findTestObject('Object Repository/change PIN/android.widget.TextView - Ubah PIN'), 0)
-
-Mobile.comment('Rubah PIn Sama ')
 
 Mobile.tap(findTestObject('Object Repository/change PIN/android.widget.TextView - Masukkan PIN Saat Ini'), 0)
 
@@ -63,6 +42,8 @@ Mobile.tap(findTestObject('Object Repository/change PIN/android.widget.TextView 
 for (int i = 1; i < 7; i++) {
     Mobile.tap(findTestObject('Object Repository/change PIN/android.widget.TextView - 1'), 0)
 }
+
+Mobile.comment('Rubah PIn Sama ')
 
 Mobile.tap(findTestObject('Object Repository/change PIN/android.widget.TextView - Buat PIN Baru'), 0)
 
@@ -78,11 +59,15 @@ for (int i = 1; i < 7; i++) {
     Mobile.tap(findTestObject('Object Repository/change PIN/android.widget.TextView - 1'), 0)
 }
 
+Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
+
 Mobile.tap(findTestObject('Object Repository/change PIN/android.widget.Button - OK'), 0)
 
 for (int i = 1; i < 7; i++) {
     Mobile.tap(findTestObject('change PIN/android.widget.ImageView - hapus pin'), 0)
 }
+
+Mobile.comment('pin baru dan konfirmasi pin tidak sama ')
 
 Mobile.tap(findTestObject('Object Repository/change PIN/android.widget.TextView - Konfirmasi PIN Baru'), 0)
 
@@ -95,19 +80,23 @@ Mobile.tap(findTestObject('Object Repository/change PIN/android.widget.Button - 
 
 Mobile.tap(findTestObject('change PIN/android.widget.ImageView - button back'), 0)
 
+Mobile.comment('Rubah Pin berhasil')
+
 Mobile.tap(findTestObject('Object Repository/change PIN/android.widget.TextView - Buat PIN Baru'), 0)
 
 //Masukan PIN Yang Baru
 for (int i = 1; i < 7; i++) {
-    Mobile.tap(findTestObject('change PIN/android.widget.TextView - 2'), 0)
+    Mobile.tap(findTestObject('change PIN/android.widget.TextView - 3'), 0)
 }
 
 Mobile.tap(findTestObject('Object Repository/change PIN/android.widget.TextView - Konfirmasi PIN Baru'), 0)
 
 //Masukan PIN Yang Baru
 for (int i = 1; i < 7; i++) {
-    Mobile.tap(findTestObject('change PIN/android.widget.TextView - 2'), 0)
+    Mobile.tap(findTestObject('change PIN/android.widget.TextView - 3'), 0)
 }
+
+Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.closeApplication()
 
