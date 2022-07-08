@@ -155,6 +155,5 @@
 	</classpathentry>
 	<classpathentry kind="lib" path="D:/Automation/Katalon/Katalon_Studio_Windows_64-8.2.5/configuration/org.eclipse.osgi/26/0/.cp/resources/basic-report/katalon-studio-report-plugin.jar"/>
 	<classpathentry kind="con" path="GROOVY_SUPPORT"/>
-	<classpathentry kind="con" path="GROOVY_DSL_SUPPORT"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
