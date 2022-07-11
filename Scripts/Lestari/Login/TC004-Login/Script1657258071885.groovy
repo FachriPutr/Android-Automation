@@ -138,14 +138,10 @@ for (int i = 1; i <= ExcelData.getRowNumbers(); i++) {
 
     String ButtonPin9 = Mobile.getText(findTestObject('Object Repository/TC007/android.widget.TextView - 9 pin'), 5, FailureHandling.OPTIONAL)
 
-    println(ButtonPin1)
-
-    println(ButtonPin2)
-
-    println(ButtonPin3)
+    println ButtonPin1
 
     for (int k = 0; k < pin.length(); k++) {
-        if ((pin[k]) == ButtonPin0) {
+        if ((pin[k]) == ButtonPin1) {
             Mobile.tap(findTestObject('Object Repository/TC007/android.widget.TextView - 0 pin'), 5, FailureHandling.OPTIONAL)
         } else if ((pin[k]) == ButtonPin1) {
             Mobile.tap(findTestObject('Object Repository/TC007/android.widget.TextView - 1 pin'), 5, FailureHandling.OPTIONAL)
@@ -193,76 +189,21 @@ for (int i = 1; i <= ExcelData.getRowNumbers(); i++) {
     //    }
     Mobile.takeScreenshot('', FailureHandling.STOP_ON_FAILURE)
 
-    if (pin != KonfirmasiPin) {
-        Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
-
-        Mobile.takeScreenshot('', FailureHandling.STOP_ON_FAILURE)
-
-        Mobile.tap(findTestObject('Object Repository/Daftar/android.widget.ImageView'), 5, FailureHandling.OPTIONAL)
-
-        Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
-
-        continue
-    }
+//    if (pin != KonfirmasiPin) {
+//        Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
+//
+//        Mobile.takeScreenshot('', FailureHandling.STOP_ON_FAILURE)
+//
+//        Mobile.tap(findTestObject('Object Repository/Daftar/android.widget.ImageView'), 5, FailureHandling.OPTIONAL)
+//
+//        Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
+//
+//        continue
+//    }
     
     Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
 
-    Mobile.tap(findTestObject('Object Repository/Daftar/android.widget.EditTextPassword'), 5, FailureHandling.OPTIONAL)
-
-    Mobile.setText(findTestObject('Object Repository/Daftar/android.widget.EditTextPassword'), Password, 5, FailureHandling.OPTIONAL)
-
-    Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
-
-    Mobile.tap(findTestObject('Object Repository/Daftar/android.widget.EditTextKonfirmasiPassword'), 5, FailureHandling.OPTIONAL)
-
-    Mobile.setText(findTestObject('Object Repository/Daftar/android.widget.EditTextKonfirmasiPassword'), KonfirmasiPassword, 
-        5, FailureHandling.OPTIONAL)
-
-    Mobile.hideKeyboard()
-
-    Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
-
-    Mobile.tap(findTestObject('Object Repository/Daftar/android.widget.Button - Lanjut'), 5, FailureHandling.OPTIONAL)
-
-    Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
-
-    Mobile.takeScreenshot('', FailureHandling.STOP_ON_FAILURE)
-
-    println('PasswordDariInput' + Password)
-
-    println('PasswordDariExcel ' + Password)
-
-    println(('ComparePassword' + Password) != KonfirmasiPassword)
-
-    String password_pattern = '^(?=.*[0-9])(?=.*[a-z])(?=.*[A-Z])(?=.*[!@#&()–[{}]:;,?/*~$^+=<>]).{8,16}$'
-
-    Pattern pt = Pattern.compile(password_pattern)
-
-    Matcher m1 = pt.matcher(Password)
-
-    Matcher m2 = pt.matcher(KonfirmasiPassword)
-
-    boolean p1 = m1.find()
-
-    boolean p2 = m2.find()
-
-    println('hasil p1 >>> ' + p1)
-
-    println('hasil p2 >>> ' + p2)
-
-    if (!(p1) || !(p2)) {
-        Mobile.takeScreenshot('', FailureHandling.STOP_ON_FAILURE)
-
-        continue
-    }
-    
-    if (Password != KonfirmasiPassword) {
-        Mobile.takeScreenshot('', FailureHandling.STOP_ON_FAILURE)
-
-        //Mobile.tap(findTestObject('Register/New Folder (7)/XCUIElementTypeButton - Lanjut'), 5, FailureHandling.OPTIONAL)
-        //Mobile.takeScreenshot('', FailureHandling.STOP_ON_FAILURE)
-        continue
-    }
+//    S
     
     Mobile.tap(findTestObject('Object Repository/Now 420/TC-001/android.widget.Button - Nanti'), 5, FailureHandling.OPTIONAL)
 
