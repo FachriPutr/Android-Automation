@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TC003-NeopayRegistered</name>
+   <name>TC003-NeopayUnRegistered</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>dccac00a-2180-4fff-8bfd-27d546ec9e07</testCaseGuid>
