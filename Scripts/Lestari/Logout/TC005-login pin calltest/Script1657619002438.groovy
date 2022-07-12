@@ -24,97 +24,18 @@ import io.appium.java_client.android.AndroidKeyCode as AndroidKeyCode
 
 Mobile.startExistingApplication(GlobalVariable.APK, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.tap(findTestObject('Daftar/android.widget.TextView - Lewati (1)'), 0)
-
 Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
 
-TestData ExcelData = findTestData('Login/DF004-Login')
+Mobile.tap(findTestObject('Login/android.widget.Button - Login_pin'), 0)
+
+TestData ExcelData = findTestData('Logout/DF005-Logout')
 
 System.out.println('[Row Count] : ' + ExcelData.getRowNumbers())
 
 for (int i = 1; i <= ExcelData.getRowNumbers(); i++) {
     System.out.println('[data files phone number] : ' + ExcelData.getValue(3, i))
 
-    String NomorHandphone = ExcelData.getValue(3, i)
-
-    String OTP = ExcelData.getValue(4, i)
-
-    String pin = ExcelData.getValue(5, i)
-
-    Mobile.tap(findTestObject('Login/android.widget.EditText - Input No Hp Login'), 5, FailureHandling.OPTIONAL)
-
-    Mobile.setText(findTestObject('Login/android.widget.EditText - Input No Hp Login'), NomorHandphone, 5, FailureHandling.OPTIONAL)
-
-    Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
-
-    Mobile.hideKeyboard()
-
-    Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
-
-    Mobile.tap(findTestObject('Login/android.widget.Button - Login'), 5, FailureHandling.OPTIONAL)
-
-    println(' noHandphone >> ' + NomorHandphone)
-
-    boolean textInvalidHP = Mobile.verifyElementVisible(findTestObject('Login/android.widget.TextView - Masukkan nomor handphone yang sesuai'), 
-        5, FailureHandling.OPTIONAL)
-
-    //Mobile.tap(findTestObject('RegisterFirstDownloader/OR004-ButtonDone'), 5, FailureHandling.OPTIONAL)
-    Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
-
-    if (textInvalidHP) {
-        println('screenshot')
-
-        Mobile.takeScreenshot('', FailureHandling.STOP_ON_FAILURE)
-
-        continue
-    }
-    
-    boolean btnPopUp = Mobile.verifyElementVisible(findTestObject('Login/android.widget.Button - OK'), 5, FailureHandling.OPTIONAL)
-
-    if (btnPopUp) {
-        //mobile tap ok
-        Mobile.tap(findTestObject('Object Repository/Daftar/android.widget.Button - OK'), 5, FailureHandling.OPTIONAL)
-
-        Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
-
-        Mobile.takeScreenshot('', FailureHandling.STOP_ON_FAILURE)
-
-        //Mobile.tap(findTestObject('New Folder (6)/XCUIElementTypeButton - ic now back (1)'), 5, FailureHandling.OPTIONAL)
-        //Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
-        continue
-    }
-    
-    Mobile.tap(findTestObject('Object Repository/Daftar/android.widget.EditTextOTP'), 5, FailureHandling.OPTIONAL)
-
-    Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
-
-    Mobile.setText(findTestObject('Object Repository/Daftar/android.widget.EditTextOTP'), OTP, 5, FailureHandling.OPTIONAL)
-
-    Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
-
-    boolean btnPopUpOTP = Mobile.verifyElementVisible(findTestObject('Object Repository/Daftar/android.widget.Button - OK'), 
-        5, FailureHandling.OPTIONAL)
-
-    if (btnPopUpOTP) {
-        //mobile tap ok
-        Mobile.tap(findTestObject('Object Repository/Daftar/android.widget.Button - OK'), 5, FailureHandling.OPTIONAL)
-
-        Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
-
-        Mobile.takeScreenshot('', FailureHandling.STOP_ON_FAILURE)
-
-        Mobile.tap(findTestObject('Object Repository/Daftar/android.widget.ImageView'), 5, FailureHandling.OPTIONAL)
-
-        Mobile.delay(15, FailureHandling.STOP_ON_FAILURE)
-
-        continue
-    }
-    
-    Mobile.hideKeyboard()
-
-    Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
-
-    Mobile.tap(findTestObject('TC005/android.widget.Button - Selanjutnya'), 5, FailureHandling.OPTIONAL)
+    String pin = ExcelData.getValue(3, i)
 
     println('PinDariExcel ' + pin)
 
@@ -168,49 +89,21 @@ for (int i = 1; i <= ExcelData.getRowNumbers(); i++) {
         }
     }
     
-    //    for (int j = 0; j < KonfirmasiPin.length(); j++) {
-    //        if ((KonfirmasiPin[j]) == ButtonPin0) {
-    //            Mobile.tap(findTestObject('Object Repository/TC007/android.widget.TextView - 0 pin'), 5, FailureHandling.OPTIONAL)
-    //        } else if ((KonfirmasiPin[j]) == ButtonPin1) {
-    //            Mobile.tap(findTestObject('Object Repository/TC007/android.widget.TextView - 1 pin'), 5, FailureHandling.OPTIONAL)
-    //        } else if ((KonfirmasiPin[j]) == ButtonPin2) {
-    //            Mobile.tap(findTestObject('Object Repository/TC007/android.widget.TextView - 2 pin'), 5, FailureHandling.OPTIONAL)
-    //        } else if ((KonfirmasiPin[j]) == ButtonPin3) {
-    //            Mobile.tap(findTestObject('Object Repository/TC007/android.widget.TextView - 3 pin'), 5, FailureHandling.OPTIONAL)
-    //        } else if ((KonfirmasiPin[j]) == ButtonPin4) {
-    //            Mobile.tap(findTestObject('Object Repository/TC007/android.widget.TextView - 4 pin'), 5, FailureHandling.OPTIONAL)
-    //        } else if ((KonfirmasiPin[j]) == ButtonPin5) {
-    //            Mobile.tap(findTestObject('Object Repository/TC007/android.widget.TextView - 5 pin'), 5, FailureHandling.OPTIONAL)
-    //        } else if ((KonfirmasiPin[j]) == ButtonPin6) {
-    //            Mobile.tap(findTestObject('Object Repository/TC007/android.widget.TextView - 6 pin'), 5, FailureHandling.OPTIONAL)
-    //        } else if ((KonfirmasiPin[j]) == ButtonPin7) {
-    //            Mobile.tap(findTestObject('Object Repository/TC007/android.widget.TextView - 7 pin'), 5, FailureHandling.OPTIONAL)
-    //        } else if ((KonfirmasiPin[j]) == ButtonPin8) {
-    //            Mobile.tap(findTestObject('Object Repository/TC007/android.widget.TextView - 8 pin'), 5, FailureHandling.OPTIONAL)
-    //        } else if ((KonfirmasiPin[j]) == ButtonPin9) {
-    //            Mobile.tap(findTestObject('Object Repository/TC007/android.widget.TextView - 9 pin'), 5, FailureHandling.OPTIONAL)
-    //        }
-    //    }
     Mobile.takeScreenshot('', FailureHandling.STOP_ON_FAILURE)
-	
-    if(pin != 123456) {
-		
+
+    if (pin != 123456) {
         Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
 
         Mobile.takeScreenshot('', FailureHandling.STOP_ON_FAILURE)
-		
-		Mobile.tap(findTestObject('Daftar/android.widget.Button - OK'), 5, FailureHandling.OPTIONAL)
 
-//        Mobile.tap(findTestObject('Object Repository/Daftar/android.widget.ImageView'), 5, FailureHandling.OPTIONAL)
-		
+        Mobile.tap(findTestObject('Daftar/android.widget.Button - OK'), 5, FailureHandling.OPTIONAL)
 
+        //        Mobile.tap(findTestObject('Object Repository/Daftar/android.widget.ImageView'), 5, FailureHandling.OPTIONAL)
         Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
 
         continue
     }
     
-    
-
     Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
 
     //    S

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC005-login pin calltest</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f5bf7f06-fef9-436f-b002-5a05b4b97c9c</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>50218c51-9985-4c7e-938c-1d7eec572500</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>50218c51-9985-4c7e-938c-1d7eec572500</id>
+      <masked>false</masked>
+      <name>pin</name>
+   </variable>
+</TestCaseEntity>
