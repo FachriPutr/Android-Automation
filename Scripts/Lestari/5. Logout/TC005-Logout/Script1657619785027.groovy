@@ -22,7 +22,7 @@ import com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory as Mobil
 import io.appium.java_client.android.AndroidDriver as AndroidDriver
 import io.appium.java_client.android.AndroidKeyCode as AndroidKeyCode
 
-Mobile.callTestCase(findTestCase('Lestari/Logout/TC005-login pin calltest'), [('pin') : ''], FailureHandling.STOP_ON_FAILURE)
+Mobile.callTestCase(findTestCase('Lestari/5. Logout/TC005-login pin calltest'), [('pin') : ''], FailureHandling.STOP_ON_FAILURE)
 
 Mobile.tap(findTestObject('Logout/android.widget.ImageView-SideMenu'), 5)
 
