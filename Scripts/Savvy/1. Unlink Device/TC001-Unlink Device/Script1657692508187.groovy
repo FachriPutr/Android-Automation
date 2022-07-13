@@ -22,13 +22,21 @@ import com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory as Mobil
 import io.appium.java_client.android.AndroidDriver as AndroidDriver
 import io.appium.java_client.android.AndroidKeyCode as AndroidKeyCode
 
-Mobile.startExistingApplication(GlobalVariable.APK, FailureHandling.STOP_ON_FAILURE)
+Mobile.callTestCase(findTestCase('Lestari/5. Logout/TC005-login pin calltest'), [('pin') : ''], FailureHandling.STOP_ON_FAILURE)
 
-Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
+Mobile.tap(findTestObject('Logout/android.widget.ImageView-SideMenu'), 5)
 
-Mobile.tap(findTestObject('Login/android.widget.Button - Login_pin'), 0)
+Mobile.tap(findTestObject('Unlink Device/android.widget.TextView - Hapus Perangkat'), 0)
 
-TestData ExcelData = findTestData('lestari/Login/DF004-Loginpin')
+Mobile.tap(findTestObject('Unlink Device/android.widget.TextView - Hapus Perangkat Ini'), 0)
+
+Mobile.tap(findTestObject('Unlink Device/android.widget.Button - Lanjutkan'), 0)
+
+Mobile.tap(findTestObject('Unlink Device/android.widget.TextView - Apakah Kamu Yakin Ingin Menghapus Perangkat Ini'), 0)
+
+Mobile.tap(findTestObject('Unlink Device/android.widget.Button - Hapus Perangkat'), 0)
+
+TestData ExcelData = findTestData('savvy/DF001-UnlinkDevice')
 
 System.out.println('[Row Count] : ' + ExcelData.getRowNumbers())
 
@@ -96,7 +104,7 @@ for (int i = 1; i <= ExcelData.getRowNumbers(); i++) {
 
         Mobile.takeScreenshot('', FailureHandling.STOP_ON_FAILURE)
 
-        Mobile.tap(findTestObject('Daftar/android.widget.Button - OK'), 5, FailureHandling.OPTIONAL)
+        Mobile.tap(findTestObject('Unlink Device/android.widget.Button - OK'), 5, FailureHandling.OPTIONAL)
 
         //        Mobile.tap(findTestObject('Object Repository/Daftar/android.widget.ImageView'), 5, FailureHandling.OPTIONAL)
         Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
@@ -105,16 +113,5 @@ for (int i = 1; i <= ExcelData.getRowNumbers(); i++) {
     }
     
     Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
-
-    //    S
-//    Mobile.tap(findTestObject('Object Repository/Now 420/TC-001/android.widget.Button - Nanti'), 5, FailureHandling.OPTIONAL)
-//
-//    Mobile.delay(5, FailureHandling.STOP_ON_FAILURE //driver.terminateApp('com.nobubank.nobuepay.walletsit')
-//        )
 }
-
-    Mobile.tap(findTestObject('Object Repository/Now 420/TC-001/android.widget.Button - Nanti'), 5, FailureHandling.OPTIONAL)
-
-    Mobile.delay(5, FailureHandling.STOP_ON_FAILURE //driver.terminateApp('com.nobubank.nobuepay.walletsit')
-        )
 

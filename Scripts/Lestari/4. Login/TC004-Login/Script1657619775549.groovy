@@ -28,7 +28,7 @@ Mobile.tap(findTestObject('Daftar/android.widget.TextView - Lewati (1)'), 0)
 
 Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
 
-TestData ExcelData = findTestData('Login/DF004-Login')
+TestData ExcelData = findTestData('lestari/Login/DF004-Login')
 
 System.out.println('[Row Count] : ' + ExcelData.getRowNumbers())
 
@@ -192,25 +192,20 @@ for (int i = 1; i <= ExcelData.getRowNumbers(); i++) {
     //        }
     //    }
     Mobile.takeScreenshot('', FailureHandling.STOP_ON_FAILURE)
-	
-    if(pin != 123456) {
-		
+
+    if (pin != 123456) {
         Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
 
         Mobile.takeScreenshot('', FailureHandling.STOP_ON_FAILURE)
-		
-		Mobile.tap(findTestObject('Daftar/android.widget.Button - OK'), 5, FailureHandling.OPTIONAL)
 
-//        Mobile.tap(findTestObject('Object Repository/Daftar/android.widget.ImageView'), 5, FailureHandling.OPTIONAL)
-		
+        Mobile.tap(findTestObject('Daftar/android.widget.Button - OK'), 5, FailureHandling.OPTIONAL)
 
+        //        Mobile.tap(findTestObject('Object Repository/Daftar/android.widget.ImageView'), 5, FailureHandling.OPTIONAL)
         Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
 
         continue
     }
     
-    
-
     Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
 
     //    S

@@ -28,7 +28,7 @@ Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.tap(findTestObject('Login/android.widget.Button - Login_pin'), 0)
 
-TestData ExcelData = findTestData('Logout/DF005-Logout')
+TestData ExcelData = findTestData('lestari/Logout/DF005-Logout')
 
 System.out.println('[Row Count] : ' + ExcelData.getRowNumbers())
 
@@ -107,9 +107,11 @@ for (int i = 1; i <= ExcelData.getRowNumbers(); i++) {
     Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
 
     //    S
-    Mobile.tap(findTestObject('Object Repository/Now 420/TC-001/android.widget.Button - Nanti'), 5, FailureHandling.OPTIONAL)
-
-    Mobile.delay(5, FailureHandling.STOP_ON_FAILURE //driver.terminateApp('com.nobubank.nobuepay.walletsit')
-        )
+    
 }
+
+Mobile.tap(findTestObject('Object Repository/Now 420/TC-001/android.widget.Button - Nanti'), 5, FailureHandling.OPTIONAL)
+
+	Mobile.delay(5, FailureHandling.STOP_ON_FAILURE //driver.terminateApp('com.nobubank.nobuepay.walletsit')
+		)
 
