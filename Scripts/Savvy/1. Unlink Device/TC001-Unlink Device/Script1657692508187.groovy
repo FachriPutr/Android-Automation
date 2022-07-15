@@ -36,7 +36,7 @@ Mobile.tap(findTestObject('Unlink Device/android.widget.TextView - Apakah Kamu Y
 
 Mobile.tap(findTestObject('Unlink Device/android.widget.Button - Hapus Perangkat'), 0)
 
-TestData ExcelData = findTestData('savvy/DF001-UnlinkDevice')
+TestData ExcelData = findTestData('savvy/Unlink Device/DF001-UnlinkDevice')
 
 System.out.println('[Row Count] : ' + ExcelData.getRowNumbers())
 
