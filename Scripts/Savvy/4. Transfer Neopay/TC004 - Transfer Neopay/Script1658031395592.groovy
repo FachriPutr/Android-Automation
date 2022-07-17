@@ -166,8 +166,10 @@ for (int i = 1; i <= ExcelData.getRowNumbers(); i++) {
         Mobile.tap(findTestObject('LinkageSaver/android.widget.Button - OK'), 2, FailureHandling.OPTIONAL)
 
         Mobile.delay(4, FailureHandling.STOP_ON_FAILURE)
-
-        Mobile.tap(findTestObject('LinkageSaver/android.widget.ImageView - button back'), 2, FailureHandling.OPTIONAL)
+		
+		for (int l = 1; l < 3; i++) {
+			Mobile.tap(findTestObject('LinkageSaver/android.widget.ImageView - button back'),  2, FailureHandling.OPTIONAL)
+		}
 
         Mobile.takeScreenshot('', FailureHandling.STOP_ON_FAILURE)
 
