@@ -28,7 +28,7 @@ Mobile.tap(findTestObject('Transfer Neopay/android.widget.LinearLayout - Button 
 
 Mobile.tap(findTestObject('Transfer Neopay/android.view.ViewGroup - Button transfer NeoPay'), 0)
 
-TestData ExcelData = findTestData('savvy/Transfer Neopay/DF004-TransferNeopay')
+TestData ExcelData = findTestData('savvy/Add favorit Neopay/DF007-Transfer neopay Calltest')
 
 System.out.println('[Row Count] : ' + ExcelData.getRowNumbers())
 
@@ -166,10 +166,6 @@ for (int i = 1; i <= ExcelData.getRowNumbers(); i++) {
         Mobile.tap(findTestObject('LinkageSaver/android.widget.Button - OK'), 2, FailureHandling.OPTIONAL)
 
         Mobile.delay(4, FailureHandling.STOP_ON_FAILURE)
-		
-		Mobile.tap(findTestObject('LinkageSaver/android.widget.ImageView - button back'),  0, FailureHandling.OPTIONAL)
-		
-		Mobile.tap(findTestObject('LinkageSaver/android.widget.ImageView - button back'),  0, FailureHandling.OPTIONAL)
 
         Mobile.takeScreenshot('', FailureHandling.STOP_ON_FAILURE)
 
