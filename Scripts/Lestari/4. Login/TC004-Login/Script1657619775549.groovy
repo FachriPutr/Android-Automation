@@ -168,29 +168,6 @@ for (int i = 1; i <= ExcelData.getRowNumbers(); i++) {
         }
     }
     
-    //    for (int j = 0; j < KonfirmasiPin.length(); j++) {
-    //        if ((KonfirmasiPin[j]) == ButtonPin0) {
-    //            Mobile.tap(findTestObject('Object Repository/TC007/android.widget.TextView - 0 pin'), 5, FailureHandling.OPTIONAL)
-    //        } else if ((KonfirmasiPin[j]) == ButtonPin1) {
-    //            Mobile.tap(findTestObject('Object Repository/TC007/android.widget.TextView - 1 pin'), 5, FailureHandling.OPTIONAL)
-    //        } else if ((KonfirmasiPin[j]) == ButtonPin2) {
-    //            Mobile.tap(findTestObject('Object Repository/TC007/android.widget.TextView - 2 pin'), 5, FailureHandling.OPTIONAL)
-    //        } else if ((KonfirmasiPin[j]) == ButtonPin3) {
-    //            Mobile.tap(findTestObject('Object Repository/TC007/android.widget.TextView - 3 pin'), 5, FailureHandling.OPTIONAL)
-    //        } else if ((KonfirmasiPin[j]) == ButtonPin4) {
-    //            Mobile.tap(findTestObject('Object Repository/TC007/android.widget.TextView - 4 pin'), 5, FailureHandling.OPTIONAL)
-    //        } else if ((KonfirmasiPin[j]) == ButtonPin5) {
-    //            Mobile.tap(findTestObject('Object Repository/TC007/android.widget.TextView - 5 pin'), 5, FailureHandling.OPTIONAL)
-    //        } else if ((KonfirmasiPin[j]) == ButtonPin6) {
-    //            Mobile.tap(findTestObject('Object Repository/TC007/android.widget.TextView - 6 pin'), 5, FailureHandling.OPTIONAL)
-    //        } else if ((KonfirmasiPin[j]) == ButtonPin7) {
-    //            Mobile.tap(findTestObject('Object Repository/TC007/android.widget.TextView - 7 pin'), 5, FailureHandling.OPTIONAL)
-    //        } else if ((KonfirmasiPin[j]) == ButtonPin8) {
-    //            Mobile.tap(findTestObject('Object Repository/TC007/android.widget.TextView - 8 pin'), 5, FailureHandling.OPTIONAL)
-    //        } else if ((KonfirmasiPin[j]) == ButtonPin9) {
-    //            Mobile.tap(findTestObject('Object Repository/TC007/android.widget.TextView - 9 pin'), 5, FailureHandling.OPTIONAL)
-    //        }
-    //    }
     Mobile.takeScreenshot('', FailureHandling.STOP_ON_FAILURE)
 
     if (pin != 123456) {
