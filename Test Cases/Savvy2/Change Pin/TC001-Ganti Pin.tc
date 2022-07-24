@@ -1,47 +1,60 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TC004-Login</name>
+   <name>TC001-Ganti Pin</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>fd08ec1d-3699-4765-b651-1f08ae257d8a</testCaseGuid>
+   <testCaseGuid>10131ca0-0111-4797-bd0f-b935adadbf35</testCaseGuid>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>1c6d3486-297c-4cd3-93ec-a3815b41831f</variableId>
+      <variableId>b38e8883-24f8-460a-958e-2095d2e6590d</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>515402af-a696-4f8a-8818-3ccdefde646f</variableId>
+      <variableId>73793e7d-7a85-48eb-b06a-d164f5680654</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>81304c1a-3c27-449f-98c3-227c4bb3a866</variableId>
+      <variableId>4a384ce6-53d8-4f24-9202-d3c777f67ce7</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>272757a6-9852-4b25-80ff-9a55391c6139</variableId>
    </variableLinks>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>1c6d3486-297c-4cd3-93ec-a3815b41831f</id>
+      <id>b38e8883-24f8-460a-958e-2095d2e6590d</id>
       <masked>false</masked>
-      <name>Nomorhandphone</name>
+      <name>OldValidPin</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>515402af-a696-4f8a-8818-3ccdefde646f</id>
+      <id>73793e7d-7a85-48eb-b06a-d164f5680654</id>
       <masked>false</masked>
-      <name>OTP</name>
+      <name>OldPin</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>81304c1a-3c27-449f-98c3-227c4bb3a866</id>
+      <id>4a384ce6-53d8-4f24-9202-d3c777f67ce7</id>
       <masked>false</masked>
       <name>pin</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>272757a6-9852-4b25-80ff-9a55391c6139</id>
+      <masked>false</masked>
+      <name>KonfirmasiPin</name>
    </variable>
 </TestCaseEntity>

@@ -1,46 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TC004-Login</name>
+   <name>TC001-Login Sukses calltest</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>fd08ec1d-3699-4765-b651-1f08ae257d8a</testCaseGuid>
+   <testCaseGuid>073fb4dc-062f-4c76-b3c4-772b1141ea2a</testCaseGuid>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>1c6d3486-297c-4cd3-93ec-a3815b41831f</variableId>
+      <variableId>d2954b8c-c371-45ee-85c2-54a7cfa83506</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>515402af-a696-4f8a-8818-3ccdefde646f</variableId>
+      <variableId>cb1bb07d-9a04-42de-bd94-c03fcf3f5965</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>81304c1a-3c27-449f-98c3-227c4bb3a866</variableId>
+      <variableId>76a8824d-40ac-4758-b166-d08ab22611bd</variableId>
    </variableLinks>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>1c6d3486-297c-4cd3-93ec-a3815b41831f</id>
+      <id>d2954b8c-c371-45ee-85c2-54a7cfa83506</id>
       <masked>false</masked>
-      <name>Nomorhandphone</name>
+      <name>NomorHandphone</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>515402af-a696-4f8a-8818-3ccdefde646f</id>
+      <id>cb1bb07d-9a04-42de-bd94-c03fcf3f5965</id>
       <masked>false</masked>
       <name>OTP</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>81304c1a-3c27-449f-98c3-227c4bb3a866</id>
+      <id>76a8824d-40ac-4758-b166-d08ab22611bd</id>
       <masked>false</masked>
       <name>pin</name>
    </variable>
