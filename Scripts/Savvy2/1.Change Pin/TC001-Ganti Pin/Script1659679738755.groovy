@@ -22,7 +22,7 @@ import com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory as Mobil
 import io.appium.java_client.android.AndroidDriver as AndroidDriver
 import io.appium.java_client.android.AndroidKeyCode as AndroidKeyCode
 
-Mobile.callTestCase(findTestCase('Savvy2/Change Pin/TC001-Login Sukses calltest'), [('NomorHandphone') : '', ('OTP') : ''
+Mobile.callTestCase(findTestCase('Savvy2/1.Change Pin/TC001-Login Sukses calltest'), [('NomorHandphone') : '', ('OTP') : ''
         , ('pin') : ''], FailureHandling.STOP_ON_FAILURE)
 
 Mobile.tap(findTestObject('Ganti Pin/android.widget.ImageView - Side menu'), 5, FailureHandling.OPTIONAL)

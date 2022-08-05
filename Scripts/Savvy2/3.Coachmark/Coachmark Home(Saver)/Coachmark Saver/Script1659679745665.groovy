@@ -22,35 +22,46 @@ import com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory as Mobil
 import io.appium.java_client.android.AndroidDriver as AndroidDriver
 import io.appium.java_client.android.AndroidKeyCode as AndroidKeyCode
 
-Mobile.callTestCase(findTestCase('Savvy2/Change Pin/TC001-Login Sukses calltest'), [('NomorHandphone') : '', ('OTP') : ''
-	, ('pin') : ''], FailureHandling.STOP_ON_FAILURE)
+Mobile.callTestCase(findTestCase('Savvy2/1.Change Pin/TC001-Login Sukses calltest'), [('NomorHandphone') : '', ('OTP') : ''
+        , ('pin') : ''], FailureHandling.STOP_ON_FAILURE)
 
-Mobile.comment('Home spender')
+Mobile.comment('Home Saver')
 
-Mobile.tapAtPosition(858, 602)
+Mobile.tapAtPosition(847, 610)
 
-Mobile.tapAtPosition(865, 616)
+Mobile.tapAtPosition(799, 595)
 
-Mobile.tapAtPosition(844, 595)
+Mobile.tapAtPosition(851, 609)
 
-Mobile.tapAtPosition(876, 837)
+Mobile.tapAtPosition(830, 883)
 
-Mobile.tapAtPosition(844, 1196)
+Mobile.tapAtPosition(830, 865)
 
-Mobile.tapAtPosition(834, 1548)
+Mobile.tapAtPosition(704, 1984)
 
-Mobile.tapAtPosition(700, 1988)
+Mobile.comment('sumberdana-lihat saldo')
 
-Mobile.comment('spender-transfer')
+Mobile.tap(findTestObject('coachmark/android.widget.Button - Lihat Saldo (1)'), 0)
+
+Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
+
+Mobile.tapAtPosition(855, 165)
+
+Mobile.tap(findTestObject('coachmark/android.widget.ImageView - button back'), 0)
+
+Mobile.comment('Saver-transfer')
 
 Mobile.tap(findTestObject('coachmark/android.widget.TextView - Transfer'), 0)
 
-Mobile.delay(10, FailureHandling.STOP_ON_FAILURE)
+Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.tapAtPosition(841, 714)
+Mobile.tapAtPosition(851, 711)
+
+Mobile.tapAtPosition(531, 1066)
 
 Mobile.tap(findTestObject('coachmark/android.widget.ImageView - button back'), 0)
 
 Mobile.tap(findTestObject('coachmark/android.widget.ImageView-button garis'), 0)
 
 Mobile.tap(findTestObject('coachmark/android.widget.LinearLayout -Background'), 0)
+
