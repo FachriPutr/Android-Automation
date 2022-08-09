@@ -5,4 +5,56 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>d70cfaaa-10db-4da0-b9f8-4ac381e9d79b</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>76320f3d-07ae-42ec-b2e5-0fd0ed5850e2</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>3bb5bd7f-69e4-472b-ba09-8105ed33ddf1</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>58ccaa94-0e9f-4d19-b690-bbd6d80bc08e</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>a36a5c9f-8138-4b37-a60a-d5bb43c9dea9</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>76320f3d-07ae-42ec-b2e5-0fd0ed5850e2</id>
+      <masked>false</masked>
+      <name>NomorRekening</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>3bb5bd7f-69e4-472b-ba09-8105ed33ddf1</id>
+      <masked>false</masked>
+      <name>NominalTransfer</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>58ccaa94-0e9f-4d19-b690-bbd6d80bc08e</id>
+      <masked>false</masked>
+      <name>pin</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>a36a5c9f-8138-4b37-a60a-d5bb43c9dea9</id>
+      <masked>false</masked>
+      <name>BankTujuan</name>
+   </variable>
 </TestCaseEntity>
