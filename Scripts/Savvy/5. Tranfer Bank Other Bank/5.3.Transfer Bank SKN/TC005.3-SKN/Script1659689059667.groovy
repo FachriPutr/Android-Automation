@@ -79,8 +79,6 @@ for (int i = 1; i <= ExcelData.getRowNumbers(); i++) {
 
     Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
 
-    Mobile.tap(findTestObject('Transfer Bank Nobu Account/android.view.ViewGroup - Tap Sumber dana Nobu Saver'), 5, FailureHandling.OPTIONAL)
-
     Mobile.tap(findTestObject('Transfer Bank Nobu Account/android.view.ViewGroup - Pilih Tipe Transfer'), 5, FailureHandling.OPTIONAL)
 
     Mobile.tap(findTestObject('Transfer Bank Nobu Account/android.view.ViewGroup - SKN'), 5, FailureHandling.OPTIONAL)
@@ -177,14 +175,14 @@ for (int i = 1; i <= ExcelData.getRowNumbers(); i++) {
         Mobile.tap(findTestObject('Transfer Bank Nobu Account/android.widget.Button - OK'), 2, FailureHandling.OPTIONAL)
 
         Mobile.delay(4, FailureHandling.STOP_ON_FAILURE)
-		
-		Mobile.tap(findTestObject('Transfer Bank Nobu Account/android.widget.Button - Lihat Detail'), 2, FailureHandling.OPTIONAL)
-		
-		Mobile.scrollToText('Sembunyikan', FailureHandling.OPTIONAL)
 
-		Mobile.tap(findTestObject('Transfer Bank Nobu Account/android.widget.Button - Sembunyikan Detail'), 5, FailureHandling.OPTIONAL)
-		
-		Mobile.delay(4, FailureHandling.STOP_ON_FAILURE)
+        Mobile.tap(findTestObject('Transfer Bank Nobu Account/android.widget.Button - Lihat Detail'), 2, FailureHandling.OPTIONAL)
+
+        Mobile.scrollToText('Sembunyikan', FailureHandling.OPTIONAL)
+
+        Mobile.tap(findTestObject('Transfer Bank Nobu Account/android.widget.Button - Sembunyikan Detail'), 5, FailureHandling.OPTIONAL)
+
+        Mobile.delay(4, FailureHandling.STOP_ON_FAILURE)
 
         Mobile.tap(findTestObject('LinkageSaver/android.widget.ImageView - button back'), 0, FailureHandling.OPTIONAL)
 
