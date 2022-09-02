@@ -3,7 +3,7 @@
    <description></description>
    <name>android.widget.TextView - 4 pin</name>
    <tag></tag>
-   <elementGuidId>00000000-0000-0000-0000-000000000000</elementGuidId>
+   <elementGuidId>5684b13f-556d-4a17-a194-f905344d4cde</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -12,6 +12,7 @@
       <name>class</name>
       <type>Main</type>
       <value>android.widget.TextView</value>
+      <webElementGuid>805f67e5-5c13-4b67-887e-65fd53be9cec</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -19,6 +20,7 @@
       <name>index</name>
       <type>Main</type>
       <value>0</value>
+      <webElementGuid>146d6942-74eb-4756-acdb-e086f9e178df</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -26,6 +28,7 @@
       <name>text</name>
       <type>Main</type>
       <value>4</value>
+      <webElementGuid>5703b188-ec73-4056-9d29-2c507010be2e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -33,6 +36,7 @@
       <name>package</name>
       <type>Main</type>
       <value>com.nobubank.nobuepay.walletsit</value>
+      <webElementGuid>b213b242-5710-4087-a01b-3f9f6796013b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -40,6 +44,7 @@
       <name>checkable</name>
       <type>Main</type>
       <value>false</value>
+      <webElementGuid>d2344e47-5869-4274-b272-747c880c8a06</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -47,6 +52,7 @@
       <name>checked</name>
       <type>Main</type>
       <value>false</value>
+      <webElementGuid>a5c064d6-ebae-47c8-96ae-5fb0a6a3658a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,6 +60,7 @@
       <name>clickable</name>
       <type>Main</type>
       <value>false</value>
+      <webElementGuid>28c8b7fa-84ad-4872-a005-4cbcb40fbb71</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,6 +68,7 @@
       <name>enabled</name>
       <type>Main</type>
       <value>true</value>
+      <webElementGuid>50ffe25b-9bc1-47bc-b6ca-743509460c3a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -68,6 +76,7 @@
       <name>focusable</name>
       <type>Main</type>
       <value>false</value>
+      <webElementGuid>9f8b8492-5b05-4d24-ac8c-3fbf67fd5557</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -75,6 +84,7 @@
       <name>focused</name>
       <type>Main</type>
       <value>false</value>
+      <webElementGuid>4b5212cf-8360-48c1-b669-2ff359fda14d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -82,6 +92,7 @@
       <name>scrollable</name>
       <type>Main</type>
       <value>false</value>
+      <webElementGuid>cc4d0806-fa81-414a-9eae-d389a1314af4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -89,6 +100,7 @@
       <name>long-clickable</name>
       <type>Main</type>
       <value>false</value>
+      <webElementGuid>2f8fd4e9-693d-40b9-8d2d-cc7aeaec49b3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -96,6 +108,7 @@
       <name>password</name>
       <type>Main</type>
       <value>false</value>
+      <webElementGuid>b6e7f156-37d2-4720-8788-52cfa64118e1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -103,6 +116,7 @@
       <name>selected</name>
       <type>Main</type>
       <value>false</value>
+      <webElementGuid>d9696bec-75e5-481b-9445-f937b6b16628</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -110,6 +124,7 @@
       <name>x</name>
       <type>Main</type>
       <value>97</value>
+      <webElementGuid>e8bb0b49-6f71-4248-ad3e-c9f5522c9bef</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -117,6 +132,7 @@
       <name>y</name>
       <type>Main</type>
       <value>1641</value>
+      <webElementGuid>9c835e55-763c-4e89-b0e4-a0e2bf85abbf</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -124,6 +140,7 @@
       <name>width</name>
       <type>Main</type>
       <value>165</value>
+      <webElementGuid>fc846acc-1502-4baa-9ecf-3a48a73671e2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -131,13 +148,15 @@
       <name>height</name>
       <type>Main</type>
       <value>165</value>
+      <webElementGuid>a302e40c-c9f4-4ce6-ac2d-af5fc97cac02</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>bounds</name>
       <type>Main</type>
       <value>[97,1641][262,1806]</value>
+      <webElementGuid>d4352358-aac6-4d3f-965a-0cb8058c7ff8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -145,14 +164,16 @@
       <name>displayed</name>
       <type>Main</type>
       <value>true</value>
+      <webElementGuid>86e9ae20-b13d-4a55-ac09-9905bcbf16b5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
       <value>//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.widget.LinearLayout[1]/android.widget.LinearLayout[2]/android.widget.LinearLayout[1]/android.widget.TextView[1]</value>
+      <webElementGuid>d8496047-3f2b-4d55-afbb-a72a4c5f13b5</webElementGuid>
    </webElementProperties>
-   <locator>//*[@class = 'android.widget.TextView' and (@text = '4' or . = '4')]</locator>
+   <locator>//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.widget.LinearLayout[1]/android.widget.LinearLayout[2]/android.widget.LinearLayout[1]/android.widget.TextView[1][count(. | //*[@class = 'android.widget.TextView' and (@text = '4' or . = '4') and @bounds = '[97,1641][262,1806]']) = count(//*[@class = 'android.widget.TextView' and (@text = '4' or . = '4') and @bounds = '[97,1641][262,1806]'])]</locator>
    <locatorStrategy>ATTRIBUTES</locatorStrategy>
 </MobileElementEntity>

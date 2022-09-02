@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC006-Transfer Nobu Acount Call test</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b62bfd57-a1b0-47c7-8b06-5fbb4b4a8d56</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>3308ed69-435c-4cdb-abaf-cc67ddcf991e</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>e4dd5e2d-2af5-4143-99ae-caec26375730</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>ca174385-9b85-424b-954b-419329c0b6f5</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>3308ed69-435c-4cdb-abaf-cc67ddcf991e</id>
+      <masked>false</masked>
+      <name>NomorRekening</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>e4dd5e2d-2af5-4143-99ae-caec26375730</id>
+      <masked>false</masked>
+      <name>NominalTransfer</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>ca174385-9b85-424b-954b-419329c0b6f5</id>
+      <masked>false</masked>
+      <name>pin</name>
+   </variable>
+</TestCaseEntity>

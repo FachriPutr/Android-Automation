@@ -24,19 +24,19 @@ import io.appium.java_client.android.AndroidKeyCode as AndroidKeyCode
 
 Mobile.startExistingApplication(GlobalVariable.APK, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.tap(findTestObject('Daftar/android.widget.TextView - Lewati (1)'), 0)
+Mobile.tap(findTestObject('Object Repository/Daftar/android.widget.TextView - Lewati (1)'), 0)
 
 Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.tap(findTestObject('Daftar/android.widget.Button - Daftar (1)'), 0)
+Mobile.tap(findTestObject('Object Repository/Daftar/android.widget.Button - Daftar (1)'), 0)
 
 Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.tap(findTestObject('Daftar/android.widget.Button - Tidak-1 (1)'), 0)
+Mobile.tap(findTestObject('Object Repository/Daftar/android.widget.Button - Tidak-1 (1)'), 0)
 
 Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.tap(findTestObject('Daftar/android.widget.Button - Tidak-2'), 0)
+Mobile.tap(findTestObject('Object Repository/Daftar/android.widget.Button - Tidak-2'), 0)
 
 TestData ExcelData = findTestData('lestari/FirstDownloader/DF001-FirstDownlaoder')
 
@@ -58,18 +58,18 @@ for (int i = 1; i <= ExcelData.getRowNumbers(); i++) {
     String KonfirmasiPin = ExcelData.getValue(8, i)
 
     String Password = ExcelData.getValue(9, i)
-
+	
     String KonfirmasiPassword = ExcelData.getValue(10, i)
+	
+    Mobile.tap(findTestObject('Object Repository/Daftar/android.widget.EditText - Edit NoHPUAT'), 5, FailureHandling.OPTIONAL)
 
-    Mobile.tap(findTestObject('Daftar/android.widget.EditNomerHp'), 5, FailureHandling.OPTIONAL)
-
-    Mobile.setText(findTestObject('Daftar/android.widget.EditNomerHp'), NomorHandphone, 5, FailureHandling.OPTIONAL)
+    Mobile.setText(findTestObject('Object Repository/Daftar/android.widget.EditText - Edit NoHPUAT'), NomorHandphone, 5, FailureHandling.OPTIONAL)
 
     Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
 
-    Mobile.tap(findTestObject('Daftar/android.widget.EditTextEmail'), 5, FailureHandling.OPTIONAL)
+    Mobile.tap(findTestObject('Object Repository/Daftar/android.widget.EditText - EditEmailUAT'), 5, FailureHandling.OPTIONAL)
 
-    Mobile.setText(findTestObject('Daftar/android.widget.EditTextEmail'), AlamatEmail, 5, FailureHandling.OPTIONAL)
+    Mobile.setText(findTestObject('Object Repository/Daftar/android.widget.EditText - EditEmailUAT'), AlamatEmail, 5, FailureHandling.OPTIONAL)
 
     Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
 
@@ -77,7 +77,7 @@ for (int i = 1; i <= ExcelData.getRowNumbers(); i++) {
 
     Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
 
-    Mobile.tap(findTestObject('TC005/android.widget.Button - Selanjutnya'), 5, FailureHandling.OPTIONAL)
+    Mobile.tap(findTestObject('Object Repository/TC005/android.widget.Button - Selanjutnya'), 5, FailureHandling.OPTIONAL)
 
     println(' noHandphone >> ' + NomorHandphone)
 
@@ -178,7 +178,7 @@ for (int i = 1; i <= ExcelData.getRowNumbers(); i++) {
 
     Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
 
-    Mobile.tap(findTestObject('TC005/android.widget.Button - Selanjutnya'), 5, FailureHandling.OPTIONAL)
+    Mobile.tap(findTestObject('Object Repository/TC005/android.widget.Button - Selanjutnya'), 5, FailureHandling.OPTIONAL)
 
     println('PinDariExcel ' + pin)
 

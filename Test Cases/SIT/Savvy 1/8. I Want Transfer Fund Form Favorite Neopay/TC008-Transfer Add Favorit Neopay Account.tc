@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC008-Transfer Add Favorit Neopay Account</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9a1284f6-1fac-4d5c-8edb-8cf85af5d3bd</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>49dd64b1-8ea4-456d-92d0-25677e1351d9</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>ac4b7626-0729-4100-a0b8-d5552d3d8b0e</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>49dd64b1-8ea4-456d-92d0-25677e1351d9</id>
+      <masked>false</masked>
+      <name>NominalTransfer</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>ac4b7626-0729-4100-a0b8-d5552d3d8b0e</id>
+      <masked>false</masked>
+      <name>pin</name>
+   </variable>
+</TestCaseEntity>

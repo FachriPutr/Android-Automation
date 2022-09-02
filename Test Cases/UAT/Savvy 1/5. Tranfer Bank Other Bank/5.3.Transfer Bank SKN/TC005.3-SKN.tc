@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC005.3-SKN</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>6266156a-8969-4bff-9e1f-7025051d29b0</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>66cd0b8e-b81b-4dc9-9c12-dc4a169df912</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>1e13dd92-8786-431e-86b6-d4d9902ee8d7</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>6cffaee1-2643-42ed-965e-9e211f75105d</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>66cd0b8e-b81b-4dc9-9c12-dc4a169df912</id>
+      <masked>false</masked>
+      <name>NomorRekening</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>1e13dd92-8786-431e-86b6-d4d9902ee8d7</id>
+      <masked>false</masked>
+      <name>NominalTransfer</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>6cffaee1-2643-42ed-965e-9e211f75105d</id>
+      <masked>false</masked>
+      <name>pin</name>
+   </variable>
+</TestCaseEntity>

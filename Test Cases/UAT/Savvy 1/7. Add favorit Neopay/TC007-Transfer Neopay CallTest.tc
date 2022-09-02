@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC007-Transfer Neopay CallTest</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>7bd0df76-c791-43a3-8052-9d40864e3ee6</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>2497b907-e773-4e02-895b-ecca6d2a5690</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>74c4778f-444f-4cb9-81c2-83485046c4a8</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>3115473d-1089-474a-aada-ef881aeb6345</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>2497b907-e773-4e02-895b-ecca6d2a5690</id>
+      <masked>false</masked>
+      <name>NomorPonsel</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>74c4778f-444f-4cb9-81c2-83485046c4a8</id>
+      <masked>false</masked>
+      <name>NominalTransfer</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>3115473d-1089-474a-aada-ef881aeb6345</id>
+      <masked>false</masked>
+      <name>pin</name>
+   </variable>
+</TestCaseEntity>

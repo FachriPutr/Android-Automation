@@ -3,7 +3,7 @@
    <description></description>
    <name>android.widget.TextView - Pastikan semua aktivitas sudah selesai, ya. NOBU akan selalu siap sedia saat kamu kembali</name>
    <tag></tag>
-   <elementGuidId>00000000-0000-0000-0000-000000000000</elementGuidId>
+   <elementGuidId>486b2bf6-69a3-4d45-abd4-25c082adaa42</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -12,7 +12,7 @@
       <name>class</name>
       <type>Main</type>
       <value>android.widget.TextView</value>
-      <webElementGuid>54544628-845f-4efb-b089-4c09aa2b9ae8</webElementGuid>
+      <webElementGuid>7a08d7c5-42d8-496e-887d-b7f4541b5d29</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -20,7 +20,7 @@
       <name>index</name>
       <type>Main</type>
       <value>3</value>
-      <webElementGuid>ce537f9e-3cfc-4aaa-9c32-1feeb163053c</webElementGuid>
+      <webElementGuid>3e0cd74b-17a2-46bf-acd8-92030a2b5b33</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -29,15 +29,15 @@
       <type>Main</type>
       <value>Pastikan semua aktivitas sudah selesai, ya. NOBU akan selalu siap sedia saat 
 kamu kembali.</value>
-      <webElementGuid>9ad9b51c-b9ee-45db-9850-568a76c4cff8</webElementGuid>
+      <webElementGuid>72c24da2-8593-4481-a525-0d2ce45636c2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>resource-id</name>
       <type>Main</type>
       <value>com.nobubank.nobuepay.walletsit:id/description_confirmation</value>
-      <webElementGuid>88b41329-846f-4df4-a3a7-a4c69738bb8c</webElementGuid>
+      <webElementGuid>3e7c4c0f-fc4f-4cff-b315-bdf855cb0c0c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@ kamu kembali.</value>
       <name>package</name>
       <type>Main</type>
       <value>com.nobubank.nobuepay.walletsit</value>
-      <webElementGuid>5f150049-d0b8-42ab-a342-c95e8e1a0306</webElementGuid>
+      <webElementGuid>78ffbad8-b546-49a0-b61c-b8e4caca68d2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +53,7 @@ kamu kembali.</value>
       <name>checkable</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>e37556c4-1081-40ae-a0db-c008fa807dc8</webElementGuid>
+      <webElementGuid>9f0b12a3-6253-4731-99cb-485f1705d173</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +61,7 @@ kamu kembali.</value>
       <name>checked</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>ddbb3d31-78fc-455e-a690-6f2fc60e0269</webElementGuid>
+      <webElementGuid>5ad6c782-9883-45c3-bb46-92b28e831d4d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@ kamu kembali.</value>
       <name>clickable</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>9452ab42-26e8-43fb-a0d3-451529edaa2d</webElementGuid>
+      <webElementGuid>108787fb-6f66-4f82-a5c4-a0af9c1b28be</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@ kamu kembali.</value>
       <name>enabled</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>af8bd93b-9622-4a81-bd31-6472128005ec</webElementGuid>
+      <webElementGuid>424e9ad1-e523-47e5-bdb0-2ad41db5781a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@ kamu kembali.</value>
       <name>focusable</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>a83bb4d6-e56a-4ff3-a8e6-d86a81fcc1c0</webElementGuid>
+      <webElementGuid>d5d8644f-03b7-4586-a73b-690964c084fe</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@ kamu kembali.</value>
       <name>focused</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>704f5f5b-201a-4ef1-9316-0bca2720a47e</webElementGuid>
+      <webElementGuid>c7aa5a3f-6c85-4ffa-ada0-252dd856039f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@ kamu kembali.</value>
       <name>scrollable</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>54e7e78d-840b-45fc-8eea-265ec8ae96a5</webElementGuid>
+      <webElementGuid>9f5a232b-051e-459f-a11b-bd85ca6508f6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -109,7 +109,7 @@ kamu kembali.</value>
       <name>long-clickable</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>cbae9008-d143-41f2-a602-bb0c3dd590b3</webElementGuid>
+      <webElementGuid>4006856d-67f5-4b96-8d37-aa4fec7ff53b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -117,7 +117,7 @@ kamu kembali.</value>
       <name>password</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>e2637772-e802-4337-91d8-153bec2637bd</webElementGuid>
+      <webElementGuid>fa635b30-4306-4903-9505-dcd62fd709cd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -125,7 +125,7 @@ kamu kembali.</value>
       <name>selected</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>4e3f3e27-e4c2-43fa-9a2f-af76729d55d2</webElementGuid>
+      <webElementGuid>5bf2535c-5d2a-4067-82e5-547e3a232f03</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -133,7 +133,7 @@ kamu kembali.</value>
       <name>x</name>
       <type>Main</type>
       <value>44</value>
-      <webElementGuid>25e5f627-842d-4be0-93d8-7f4f17d1c717</webElementGuid>
+      <webElementGuid>81a38eec-10fd-4217-88dd-30ac775d0040</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -141,7 +141,7 @@ kamu kembali.</value>
       <name>y</name>
       <type>Main</type>
       <value>1875</value>
-      <webElementGuid>77e54283-ca3b-4bfd-b8ab-5dc48e1e842f</webElementGuid>
+      <webElementGuid>56ecf980-6efb-4dd9-a884-27a50d73daf8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -149,7 +149,7 @@ kamu kembali.</value>
       <name>width</name>
       <type>Main</type>
       <value>992</value>
-      <webElementGuid>f7dcca1e-dc2b-45d9-b294-d381848d90a6</webElementGuid>
+      <webElementGuid>92ba4b7d-661d-446b-b42a-6675857754c9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -157,15 +157,15 @@ kamu kembali.</value>
       <name>height</name>
       <type>Main</type>
       <value>166</value>
-      <webElementGuid>a0265d4f-7905-4a4c-8564-5a6f31a59982</webElementGuid>
+      <webElementGuid>220a4592-c358-404a-a3c8-1b11b780c5ae</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>bounds</name>
       <type>Main</type>
       <value>[44,1875][1036,2041]</value>
-      <webElementGuid>771c33c0-885f-4f6b-9e4d-dedd564b7936</webElementGuid>
+      <webElementGuid>dd3153f5-6c85-4721-9b15-768adff18d32</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -173,18 +173,20 @@ kamu kembali.</value>
       <name>displayed</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>77f1d51c-9e28-40ee-834f-38967dd2b240</webElementGuid>
+      <webElementGuid>82562640-98f3-4a8e-b6f7-cadc7ecd35b5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
       <value>//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.TextView[2]</value>
-      <webElementGuid>1fd4915f-c48f-4a88-afda-98867adec591</webElementGuid>
+      <webElementGuid>0e7e7860-6883-4857-a513-8735a273e0ba</webElementGuid>
    </webElementProperties>
-   <locator>//*[@class = 'android.widget.TextView' and (@text = 'Pastikan semua aktivitas sudah selesai, ya. NOBU akan selalu siap sedia saat 
+   <locator>//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.TextView[2][count(. | //*[@class = 'android.widget.TextView' and (@text = 'Pastikan semua aktivitas sudah selesai, ya. NOBU akan selalu siap sedia saat 
 kamu kembali.' or . = 'Pastikan semua aktivitas sudah selesai, ya. NOBU akan selalu siap sedia saat 
-kamu kembali.') and @resource-id = 'com.nobubank.nobuepay.walletsit:id/description_confirmation']</locator>
+kamu kembali.') and @bounds = '[44,1875][1036,2041]']) = count(//*[@class = 'android.widget.TextView' and (@text = 'Pastikan semua aktivitas sudah selesai, ya. NOBU akan selalu siap sedia saat 
+kamu kembali.' or . = 'Pastikan semua aktivitas sudah selesai, ya. NOBU akan selalu siap sedia saat 
+kamu kembali.') and @bounds = '[44,1875][1036,2041]'])]</locator>
    <locatorStrategy>ATTRIBUTES</locatorStrategy>
 </MobileElementEntity>

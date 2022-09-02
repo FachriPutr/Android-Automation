@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC004-Login</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>0ee96fd9-9aaf-41b0-b85a-591c10831adc</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>8e3b5de2-afd7-407d-a3f2-05a63899b169</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>998d4cd9-48dc-4ccb-8b37-3ed063928f78</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>530cc7b7-dcb7-4b62-8f83-0e23f4c2f800</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>8e3b5de2-afd7-407d-a3f2-05a63899b169</id>
+      <masked>false</masked>
+      <name>Nomorhandphone</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>998d4cd9-48dc-4ccb-8b37-3ed063928f78</id>
+      <masked>false</masked>
+      <name>OTP</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>530cc7b7-dcb7-4b62-8f83-0e23f4c2f800</id>
+      <masked>false</masked>
+      <name>pin</name>
+   </variable>
+</TestCaseEntity>

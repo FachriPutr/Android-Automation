@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC001-Unlink Device</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ac247487-1f0e-4ffc-929b-a5b5e4870166</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>6a6bfc88-2668-4deb-9858-52a685aa7e75</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>6a6bfc88-2668-4deb-9858-52a685aa7e75</id>
+      <masked>false</masked>
+      <name>pin</name>
+   </variable>
+</TestCaseEntity>

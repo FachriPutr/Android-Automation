@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC004-login pin</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>bc9c9b2b-d277-42f7-877c-1d6d1017c006</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>b03109c7-d96c-43b8-a6f0-817da2759177</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>b03109c7-d96c-43b8-a6f0-817da2759177</id>
+      <masked>false</masked>
+      <name>pin</name>
+   </variable>
+</TestCaseEntity>
